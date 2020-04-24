@@ -1,0 +1,2391 @@
+<?xml version="1.0" standalone="yes"?>
+<ESPHOMEYamlLanguageDataset>
+  <Settings_Table>
+    <CurrentLanguage_Settings>Lang_en</CurrentLanguage_Settings>
+  </Settings_Table>
+  <Main_Table>
+    <Lang_Id>ChangeLanguageID</Lang_Id>
+    <Lang_en>Change Language</Lang_en>
+    <Lang_fr>Change Language</Lang_fr>
+    <Lang_es>Change Language</Lang_es>
+    <Lang_de>Change Language</Lang_de>
+    <Lang_it>Change Language</Lang_it>
+    <Lang_he>Change Language</Lang_he>
+    <Lang_zh>Change Language</Lang_zh>
+    <Lang_ru>Change Language</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lang_en</Lang_Id>
+    <Lang_en>English</Lang_en>
+    <Lang_fr>Anglais</Lang_fr>
+    <Lang_es>Ingles</Lang_es>
+    <Lang_de>Englisch</Lang_de>
+    <Lang_it>Inglese</Lang_it>
+    <Lang_he>אנגלית</Lang_he>
+    <Lang_zh>英语</Lang_zh>
+    <Lang_ru>английский</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lang_fr</Lang_Id>
+    <Lang_en>French</Lang_en>
+    <Lang_fr>Français</Lang_fr>
+    <Lang_es>Frances</Lang_es>
+    <Lang_de>Französisch</Lang_de>
+    <Lang_it>Francese</Lang_it>
+    <Lang_he>צרפתית</Lang_he>
+    <Lang_zh>法文</Lang_zh>
+    <Lang_ru>французкий язык</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lang_es</Lang_Id>
+    <Lang_en>Spanish</Lang_en>
+    <Lang_fr>Espagnol</Lang_fr>
+    <Lang_es>Español</Lang_es>
+    <Lang_de>Spanisch</Lang_de>
+    <Lang_it>Spagnolo</Lang_it>
+    <Lang_he>אספניש</Lang_he>
+    <Lang_zh>西班牙文</Lang_zh>
+    <Lang_ru>испанский</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lang_de</Lang_Id>
+    <Lang_en>German</Lang_en>
+    <Lang_fr>Allemand</Lang_fr>
+    <Lang_es>Alemán</Lang_es>
+    <Lang_de>Deutsch</Lang_de>
+    <Lang_it>Tedesco</Lang_it>
+    <Lang_he>גרמנית</Lang_he>
+    <Lang_zh>德语</Lang_zh>
+    <Lang_ru>Немецкий</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lang_it</Lang_Id>
+    <Lang_en>Italian</Lang_en>
+    <Lang_fr>Italien</Lang_fr>
+    <Lang_es>Italiano</Lang_es>
+    <Lang_de>Italienisch</Lang_de>
+    <Lang_it>Italiano</Lang_it>
+    <Lang_he>איטליאנו</Lang_he>
+    <Lang_zh>意大利语</Lang_zh>
+    <Lang_ru>итальянский</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lang_he</Lang_Id>
+    <Lang_en>Hebrew</Lang_en>
+    <Lang_fr>Anglais</Lang_fr>
+    <Lang_es>Ingles</Lang_es>
+    <Lang_de>Englisch</Lang_de>
+    <Lang_it>Inglese</Lang_it>
+    <Lang_he>אנגלית</Lang_he>
+    <Lang_zh>英语</Lang_zh>
+    <Lang_ru>английский</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lang_zh</Lang_Id>
+    <Lang_en>Chinese</Lang_en>
+    <Lang_fr>Anglais</Lang_fr>
+    <Lang_es>Ingles</Lang_es>
+    <Lang_de>Englisch</Lang_de>
+    <Lang_it>Inglese</Lang_it>
+    <Lang_he>אנגלית</Lang_he>
+    <Lang_zh>英语</Lang_zh>
+    <Lang_ru>английский</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lang_ru</Lang_Id>
+    <Lang_en>Russin</Lang_en>
+    <Lang_fr>Anglais</Lang_fr>
+    <Lang_es>Ingles</Lang_es>
+    <Lang_de>Englisch</Lang_de>
+    <Lang_it>Inglese</Lang_it>
+    <Lang_he>אנגלית</Lang_he>
+    <Lang_zh>英语</Lang_zh>
+    <Lang_ru>английский</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MinimizeButtonID</Lang_Id>
+    <Lang_en>Minimize Generator</Lang_en>
+    <Lang_fr>Minimiser le générateur</Lang_fr>
+    <Lang_es>Minimizar generador</Lang_es>
+    <Lang_de>Generator minimieren</Lang_de>
+    <Lang_it>Ridurre al minimo il generatore</Lang_it>
+    <Lang_he>צמצם את הגנרטור</Lang_he>
+    <Lang_zh>最小化发电机</Lang_zh>
+    <Lang_ru>Свернуть генератор</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ExitButtonID</Lang_Id>
+    <Lang_en>Exit Generator</Lang_en>
+    <Lang_fr>Quittez le générateur</Lang_fr>
+    <Lang_es>Salir del generador</Lang_es>
+    <Lang_de>Verlasse den Generator</Lang_de>
+    <Lang_it>Esci dal generatore</Lang_it>
+    <Lang_he>גנרטור יציאה</Lang_he>
+    <Lang_zh>退出发电机</Lang_zh>
+    <Lang_ru>Выход из генератора</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>NewDeviceID</Lang_Id>
+    <Lang_en>New Device</Lang_en>
+    <Lang_fr>Nouvel appareil</Lang_fr>
+    <Lang_es>Nuevo dispositivo</Lang_es>
+    <Lang_de>Neues Gerät</Lang_de>
+    <Lang_it>Nuovo dispositivo</Lang_it>
+    <Lang_he>מכשיר חדש</Lang_he>
+    <Lang_zh>新装置</Lang_zh>
+    <Lang_ru>Новое устройство</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>LoadDeviceID</Lang_Id>
+    <Lang_en>Load Device</Lang_en>
+    <Lang_fr>Charger le périphérique</Lang_fr>
+    <Lang_es>Cargar dispositivo</Lang_es>
+    <Lang_de>Gerät laden</Lang_de>
+    <Lang_it>Carica dispositivo</Lang_it>
+    <Lang_he>טען מכשיר</Lang_he>
+    <Lang_zh>加载设备</Lang_zh>
+    <Lang_ru>Загрузите устройство</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AddComponentID</Lang_Id>
+    <Lang_en>add</Lang_en>
+    <Lang_fr>add</Lang_fr>
+    <Lang_es>añadir</Lang_es>
+    <Lang_de>add</Lang_de>
+    <Lang_it>add</Lang_it>
+    <Lang_he>add</Lang_he>
+    <Lang_zh>add</Lang_zh>
+    <Lang_ru>add</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SaveYamlID</Lang_Id>
+    <Lang_en>save</Lang_en>
+    <Lang_fr>save</Lang_fr>
+    <Lang_es>guardar</Lang_es>
+    <Lang_de>save</Lang_de>
+    <Lang_it>save</Lang_it>
+    <Lang_he>save</Lang_he>
+    <Lang_zh>save</Lang_zh>
+    <Lang_ru>save</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>DeleteComponentID</Lang_Id>
+    <Lang_en>delete</Lang_en>
+    <Lang_fr>delete</Lang_fr>
+    <Lang_es>borrar</Lang_es>
+    <Lang_de>delete</Lang_de>
+    <Lang_it>delete</Lang_it>
+    <Lang_he>delete</Lang_he>
+    <Lang_zh>delete</Lang_zh>
+    <Lang_ru>delete</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Components</Lang_Id>
+    <Lang_en>Components</Lang_en>
+    <Lang_fr>Components</Lang_fr>
+    <Lang_es>Componentes</Lang_es>
+    <Lang_de>Components</Lang_de>
+    <Lang_it>Components</Lang_it>
+    <Lang_he>Components</Lang_he>
+    <Lang_zh>Components</Lang_zh>
+    <Lang_ru>Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Properties</Lang_Id>
+    <Lang_en>Properties</Lang_en>
+    <Lang_fr>Properties</Lang_fr>
+    <Lang_es>Propiedades</Lang_es>
+    <Lang_de>Properties</Lang_de>
+    <Lang_it>Properties</Lang_it>
+    <Lang_he>Properties</Lang_he>
+    <Lang_zh>Properties</Lang_zh>
+    <Lang_ru>Properties</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>GenerateYamlID</Lang_Id>
+    <Lang_en>generate yaml</Lang_en>
+    <Lang_fr>generate yaml</Lang_fr>
+    <Lang_es>generar yaml</Lang_es>
+    <Lang_de>generate yaml</Lang_de>
+    <Lang_it>generate yaml</Lang_it>
+    <Lang_he>generate yaml</Lang_he>
+    <Lang_zh>generate yaml</Lang_zh>
+    <Lang_ru>generate yaml</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ButtonYesID</Lang_Id>
+    <Lang_en>Yes</Lang_en>
+    <Lang_fr>Yes</Lang_fr>
+    <Lang_es>Si</Lang_es>
+    <Lang_de>Yes</Lang_de>
+    <Lang_it>Yes</Lang_it>
+    <Lang_he>Yes</Lang_he>
+    <Lang_zh>Yes</Lang_zh>
+    <Lang_ru>Yes</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ButtonNoID</Lang_Id>
+    <Lang_en>No</Lang_en>
+    <Lang_fr>No</Lang_fr>
+    <Lang_es>No</Lang_es>
+    <Lang_de>No</Lang_de>
+    <Lang_it>No</Lang_it>
+    <Lang_he>No</Lang_he>
+    <Lang_zh>No</Lang_zh>
+    <Lang_ru>No</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ButtonCancelID</Lang_Id>
+    <Lang_en>Cancel</Lang_en>
+    <Lang_fr>Cancel</Lang_fr>
+    <Lang_es>Cancelar</Lang_es>
+    <Lang_de>Cancel</Lang_de>
+    <Lang_it>Cancel</Lang_it>
+    <Lang_he>Cancel</Lang_he>
+    <Lang_zh>Cancel</Lang_zh>
+    <Lang_ru>Cancel</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ButtonOkID</Lang_Id>
+    <Lang_en>Ok</Lang_en>
+    <Lang_fr>Ok</Lang_fr>
+    <Lang_es>Aceptar</Lang_es>
+    <Lang_de>Ok</Lang_de>
+    <Lang_it>Ok</Lang_it>
+    <Lang_he>Ok</Lang_he>
+    <Lang_zh>Ok</Lang_zh>
+    <Lang_ru>Ok</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ButtonRetryID</Lang_Id>
+    <Lang_en>Retry</Lang_en>
+    <Lang_fr>Retry</Lang_fr>
+    <Lang_es>Tratar</Lang_es>
+    <Lang_de>Retry</Lang_de>
+    <Lang_it>Retry</Lang_it>
+    <Lang_he>Retry</Lang_he>
+    <Lang_zh>Retry</Lang_zh>
+    <Lang_ru>Retry</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ButtonIgnoreID</Lang_Id>
+    <Lang_en>Ignore</Lang_en>
+    <Lang_fr>Ignore</Lang_fr>
+    <Lang_es>Ignorar</Lang_es>
+    <Lang_de>Ignore</Lang_de>
+    <Lang_it>Ignore</Lang_it>
+    <Lang_he>Ignore</Lang_he>
+    <Lang_zh>Ignore</Lang_zh>
+    <Lang_ru>Ignore</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MyMessageBoxTitle</Lang_Id>
+    <Lang_en>ESPHome Yaml Generator Message</Lang_en>
+    <Lang_fr>ESPHome Yaml Generator Message</Lang_fr>
+    <Lang_es>Mensaje del Generador de ESPHome Yaml</Lang_es>
+    <Lang_de>ESPHome Yaml Generator Message</Lang_de>
+    <Lang_it>ESPHome Yaml Generator Message</Lang_it>
+    <Lang_he>ESPHome Yaml Generator Message</Lang_he>
+    <Lang_zh>ESPHome Yaml Generator Message</Lang_zh>
+    <Lang_ru>ESPHome Yaml Generator Message</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SaveDatabasePrompt</Lang_Id>
+    <Lang_en>Will you like to save the change(s) made to the current yaml?</Lang_en>
+    <Lang_fr>Will you like to save the change(s) made to the current yaml?</Lang_fr>
+    <Lang_es>¿Deseas guardar los cambios hecho al yaml?</Lang_es>
+    <Lang_de>Will you like to save the change(s) made to the current yaml?</Lang_de>
+    <Lang_it>Will you like to save the change(s) made to the current yaml?</Lang_it>
+    <Lang_he>Will you like to save the change(s) made to the current yaml?</Lang_he>
+    <Lang_zh>Will you like to save the change(s) made to the current yaml?</Lang_zh>
+    <Lang_ru>Will you like to save the change(s) made to the current yaml?</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>YamlSavedNotification</Lang_Id>
+    <Lang_en>Yaml has been saved.</Lang_en>
+    <Lang_fr>Yaml has been saved.</Lang_fr>
+    <Lang_es>Archivo de Yaml ha sido guardado.</Lang_es>
+    <Lang_de>Yaml has been saved.</Lang_de>
+    <Lang_it>Yaml has been saved.</Lang_it>
+    <Lang_he>Yaml has been saved.</Lang_he>
+    <Lang_zh>Yaml has been saved.</Lang_zh>
+    <Lang_ru>Yaml has been saved.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MyLoadYamlTitle</Lang_Id>
+    <Lang_en>Load Yaml</Lang_en>
+    <Lang_fr>Load Yaml</Lang_fr>
+    <Lang_es>Cargar Yaml</Lang_es>
+    <Lang_de>Load Yaml</Lang_de>
+    <Lang_it>Load Yaml</Lang_it>
+    <Lang_he>Load Yaml</Lang_he>
+    <Lang_zh>Load Yaml</Lang_zh>
+    <Lang_ru>Load Yaml</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MyLoadYamlPrompt</Lang_Id>
+    <Lang_en>Select Yaml to load and press ok</Lang_en>
+    <Lang_fr> Select Yaml to load and press ok</Lang_fr>
+    <Lang_es>seleccionar Yaml para cargar luego presionar ok</Lang_es>
+    <Lang_de>Select Yaml to load and press ok</Lang_de>
+    <Lang_it>Select Yaml to load and press ok</Lang_it>
+    <Lang_he>Select Yaml to load and press ok</Lang_he>
+    <Lang_zh>Select Yaml to load and press ok</Lang_zh>
+    <Lang_ru>Select Yaml to load and press ok</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>YamlNameExitsNotification</Lang_Id>
+    <Lang_en>There is already a Yaml with the same name. Change the name or edit the existing Yaml.</Lang_en>
+    <Lang_fr>There is already a Yaml with the same name. Change the name or edit the existing Yaml.</Lang_fr>
+    <Lang_es>Ya existe un Yaml con el mismo nombre. Cambie el nombre o edite el Yaml viejo.</Lang_es>
+    <Lang_de>There is already a Yaml with the same name. Change the name or edit the existing Yaml.</Lang_de>
+    <Lang_it>There is already a Yaml with the same name. Change the name or edit the existing Yaml.</Lang_it>
+    <Lang_he>There is already a Yaml with the same name. Change the name or edit the existing Yaml.</Lang_he>
+    <Lang_zh>There is already a Yaml with the same name. Change the name or edit the existing Yaml.</Lang_zh>
+    <Lang_ru>There is already a Yaml with the same name. Change the name or edit the existing Yaml.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>DeleteCorePrompt</Lang_Id>
+    <Lang_en>Deleting the core component will delete all the components and remove the Yaml from the database. Will like to delete this component?</Lang_en>
+    <Lang_fr>Deleting the core component will delete all the components and remove the Yaml from the database. Will like to delete this component?</Lang_fr>
+    <Lang_es>Cuando remueve el componente central (core), borra todos los componentes del Yaml y de la base de datos. ¿Aun Desea remover este componente?</Lang_es>
+    <Lang_de>Deleting the core component will delete all the components and remove the Yaml from the database. Will like to delete this component?</Lang_de>
+    <Lang_it>Deleting the core component will delete all the components and remove the Yaml from the database. Will like to delete this component?</Lang_it>
+    <Lang_he>Deleting the core component will delete all the components and remove the Yaml from the database. Will like to delete this component?</Lang_he>
+    <Lang_zh>Deleting the core component will delete all the components and remove the Yaml from the database. Will like to delete this component?</Lang_zh>
+    <Lang_ru>Deleting the core component will delete all the components and remove the Yaml from the database. Will like to delete this component?</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MyDeleteCoreTitle</Lang_Id>
+    <Lang_en>Delete Yaml</Lang_en>
+    <Lang_fr>Delete Yaml</Lang_fr>
+    <Lang_es>Borrar/remover Yaml</Lang_es>
+    <Lang_de>Delete Yaml</Lang_de>
+    <Lang_it>Delete Yaml</Lang_it>
+    <Lang_he>Delete Yaml</Lang_he>
+    <Lang_zh>Delete Yaml</Lang_zh>
+    <Lang_ru>Delete Yaml</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>GenerateYamlIDPrompt</Lang_Id>
+    <Lang_en>Copy the generated text and paste it in your ESPHome configuration screen.</Lang_en>
+    <Lang_fr>Copy the generated text and paste it in your ESPHome configuration screen.</Lang_fr>
+    <Lang_es>Copiar el texto generado y pagarlo en su pantalla de configuracion de ESPHome.</Lang_es>
+    <Lang_de>Copy the generated text and paste it in your ESPHome configuration screen.</Lang_de>
+    <Lang_it>Copy the generated text and paste it in your ESPHome configuration screen.</Lang_it>
+    <Lang_he>Copy the generated text and paste it in your ESPHome configuration screen.</Lang_he>
+    <Lang_zh>Copy the generated text and paste it in your ESPHome configuration screen.</Lang_zh>
+    <Lang_ru>Copy the generated text and paste it in your ESPHome configuration screen.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AddComponentIDPrompt</Lang_Id>
+    <Lang_en>Select the component you will like to add.</Lang_en>
+    <Lang_fr>Select the component you will like to add.</Lang_fr>
+    <Lang_es>Selecionar el componente que deseas añadir.</Lang_es>
+    <Lang_de>Select the component you will like to add.</Lang_de>
+    <Lang_it>Select the component you will like to add.</Lang_it>
+    <Lang_he>Select the component you will like to add.</Lang_he>
+    <Lang_zh>Select the component you will like to add.</Lang_zh>
+    <Lang_ru>Select the component you will like to add.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AddNetworksIDPrompt</Lang_Id>
+    <Lang_en>Enter the network SSID and password.</Lang_en>
+    <Lang_fr>Enter the network SSID and password.</Lang_fr>
+    <Lang_es>Proveer el SSID y la contraseña de la red.</Lang_es>
+    <Lang_de>Enter the network SSID and password.</Lang_de>
+    <Lang_it>Enter the network SSID and password.</Lang_it>
+    <Lang_he>Enter the network SSID and password.</Lang_he>
+    <Lang_zh>Enter the network SSID and password.</Lang_zh>
+    <Lang_ru>Enter the network SSID and password.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>removenetwork</Lang_Id>
+    <Lang_en>Remove network</Lang_en>
+    <Lang_fr>Remove network</Lang_fr>
+    <Lang_es>Remover red</Lang_es>
+    <Lang_de>Remove network</Lang_de>
+    <Lang_it>Remove network</Lang_it>
+    <Lang_he>Remove network</Lang_he>
+    <Lang_zh>Remove network.</Lang_zh>
+    <Lang_ru>Remove network</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>addnetwork</Lang_Id>
+    <Lang_en>Add network</Lang_en>
+    <Lang_fr>Add network</Lang_fr>
+    <Lang_es>Añadir red</Lang_es>
+    <Lang_de>Add network</Lang_de>
+    <Lang_it>Add network</Lang_it>
+    <Lang_he>Add network</Lang_he>
+    <Lang_zh>Add network.</Lang_zh>
+    <Lang_ru>Add network</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AddEsp32WakeupPinsIDPrompt</Lang_Id>
+    <Lang_en>Select pin and pin mode for ext1 wakeup</Lang_en>
+    <Lang_fr>Select pin and pin mode for ext1 wakeup</Lang_fr>
+    <Lang_es>Select pin and pin mode for ext1 wakeup</Lang_es>
+    <Lang_de>Select pin and pin mode for ext1 wakeup</Lang_de>
+    <Lang_it>Select pin and pin mode for ext1 wakeup</Lang_it>
+    <Lang_he>Select pin and pin mode for ext1 wakeup</Lang_he>
+    <Lang_zh>Select pin and pin mode for ext1 wakeup</Lang_zh>
+    <Lang_ru>Select pin and pin mode for ext1 wakeup.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>removewakeuppin</Lang_Id>
+    <Lang_en>remove wakeup pin</Lang_en>
+    <Lang_fr>remove wakeup pin</Lang_fr>
+    <Lang_es>remove wakeup pin</Lang_es>
+    <Lang_de>remove wakeup pin</Lang_de>
+    <Lang_it>remove wakeup pin</Lang_it>
+    <Lang_he>remove wakeup pin</Lang_he>
+    <Lang_zh>remove wakeup pin</Lang_zh>
+    <Lang_ru>remove wakeup pin</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AddAPIServiceIDPrompt</Lang_Id>
+    <Lang_en>Enter the service name, any variables, and the then clause.</Lang_en>
+    <Lang_fr>Enter the service name, any variables, and the then clause.</Lang_fr>
+    <Lang_es>Enter the service name, any variables, and the then clause.</Lang_es>
+    <Lang_de>Enter the service name, any variables, and the then clause.</Lang_de>
+    <Lang_it>Enter the service name, any variables, and the then clause.</Lang_it>
+    <Lang_he>Enter the network SSID and password.</Lang_he>
+    <Lang_zh>Enter the service name, any variables, and the then clause.</Lang_zh>
+    <Lang_ru>Enter the service name, any variables, and the then clause.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>then</Lang_Id>
+    <Lang_en>then</Lang_en>
+    <Lang_fr>then</Lang_fr>
+    <Lang_es>then</Lang_es>
+    <Lang_de>then</Lang_de>
+    <Lang_it>then</Lang_it>
+    <Lang_he>then</Lang_he>
+    <Lang_zh>then</Lang_zh>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>variables</Lang_Id>
+    <Lang_en>variables</Lang_en>
+    <Lang_fr>variables</Lang_fr>
+    <Lang_es>variables</Lang_es>
+    <Lang_de>variables</Lang_de>
+    <Lang_it>variables</Lang_it>
+    <Lang_he>variables</Lang_he>
+    <Lang_zh>variables</Lang_zh>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>WiFi</Lang_Id>
+    <Lang_en>WiFi</Lang_en>
+    <Lang_fr>WiFi</Lang_fr>
+    <Lang_es>WiFi</Lang_es>
+    <Lang_de>WiFi</Lang_de>
+    <Lang_it>WiFi</Lang_it>
+    <Lang_he>WiFi</Lang_he>
+    <Lang_zh>WiFi</Lang_zh>
+    <Lang_ru>WiFi</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>I2C Bus</Lang_Id>
+    <Lang_en>I2C Bus</Lang_en>
+    <Lang_fr>I2C Bus</Lang_fr>
+    <Lang_es>I2C Bus</Lang_es>
+    <Lang_de>I2C Bus</Lang_de>
+    <Lang_it>I2C Bus</Lang_it>
+    <Lang_he>I2C Bus</Lang_he>
+    <Lang_zh>I2C Bus</Lang_zh>
+    <Lang_ru>I2C Bus</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SPI BUS</Lang_Id>
+    <Lang_en>SPI BUS</Lang_en>
+    <Lang_fr>SPI BUS</Lang_fr>
+    <Lang_es>SPI BUS</Lang_es>
+    <Lang_de>SPI BUS</Lang_de>
+    <Lang_it>SPI BUS</Lang_it>
+    <Lang_he>SPI BUS</Lang_he>
+    <Lang_zh>SPI BUS</Lang_zh>
+    <Lang_ru>SPI BUS</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>UART BUS</Lang_Id>
+    <Lang_en>UART BUS</Lang_en>
+    <Lang_fr>UART BUS</Lang_fr>
+    <Lang_es>UART BUS</Lang_es>
+    <Lang_de>UART BUS</Lang_de>
+    <Lang_it>UART BUS</Lang_it>
+    <Lang_he>UART BUS</Lang_he>
+    <Lang_zh>UART BUS</Lang_zh>
+    <Lang_ru>UART BUS</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>OTA Update</Lang_Id>
+    <Lang_en>OTA Update</Lang_en>
+    <Lang_fr>OTA Update</Lang_fr>
+    <Lang_es>OTA Update</Lang_es>
+    <Lang_de>OTA Update</Lang_de>
+    <Lang_it>OTA Update</Lang_it>
+    <Lang_he>OTA Update</Lang_he>
+    <Lang_zh>OTA Update</Lang_zh>
+    <Lang_ru>OTA Update</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Power Supply</Lang_Id>
+    <Lang_en>Power Supply</Lang_en>
+    <Lang_fr>Power Supply</Lang_fr>
+    <Lang_es>Power Supply</Lang_es>
+    <Lang_de>Power Supply</Lang_de>
+    <Lang_it>Power Supply</Lang_it>
+    <Lang_he>Power Supply</Lang_he>
+    <Lang_zh>Power Supply</Lang_zh>
+    <Lang_ru>Power Supply</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Deep Sleep</Lang_Id>
+    <Lang_en>Deep Sleep</Lang_en>
+    <Lang_fr>Deep Sleep</Lang_fr>
+    <Lang_es>Deep Sleep</Lang_es>
+    <Lang_de>Deep Sleep</Lang_de>
+    <Lang_it>Deep Sleep</Lang_it>
+    <Lang_he>Deep Sleep</Lang_he>
+    <Lang_zh>Deep Sleep</Lang_zh>
+    <Lang_ru>Deep Sleep</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Native API</Lang_Id>
+    <Lang_en>Native API</Lang_en>
+    <Lang_fr>Native API</Lang_fr>
+    <Lang_es>Native API</Lang_es>
+    <Lang_de>Native API</Lang_de>
+    <Lang_it>Native API</Lang_it>
+    <Lang_he>Native API</Lang_he>
+    <Lang_zh>Native API</Lang_zh>
+    <Lang_ru>Native API</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Logger</Lang_Id>
+    <Lang_en>Logger</Lang_en>
+    <Lang_fr>Logger</Lang_fr>
+    <Lang_es>Logger</Lang_es>
+    <Lang_de>Logger</Lang_de>
+    <Lang_it>Logger</Lang_it>
+    <Lang_he>Logger</Lang_he>
+    <Lang_zh>Logger</Lang_zh>
+    <Lang_ru>Logger</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Web Server</Lang_Id>
+    <Lang_en>Web Server</Lang_en>
+    <Lang_fr>Web Server</Lang_fr>
+    <Lang_es>Web Server</Lang_es>
+    <Lang_de>Web Server</Lang_de>
+    <Lang_it>Web Server</Lang_it>
+    <Lang_he>Web Server</Lang_he>
+    <Lang_zh>Web Server</Lang_zh>
+    <Lang_ru>Web Server</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>core</Lang_Id>
+    <Lang_en>core</Lang_en>
+    <Lang_fr>core</Lang_fr>
+    <Lang_es>core</Lang_es>
+    <Lang_de>core</Lang_de>
+    <Lang_it>core</Lang_it>
+    <Lang_he>core</Lang_he>
+    <Lang_zh>core</Lang_zh>
+    <Lang_ru>core</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>all</Lang_Id>
+    <Lang_en>all</Lang_en>
+    <Lang_fr>all</Lang_fr>
+    <Lang_es>all</Lang_es>
+    <Lang_de>all</Lang_de>
+    <Lang_it>all</Lang_it>
+    <Lang_he>all</Lang_he>
+    <Lang_zh>all</Lang_zh>
+    <Lang_ru>all</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MQTT</Lang_Id>
+    <Lang_en>MQTT</Lang_en>
+    <Lang_fr>MQTT</Lang_fr>
+    <Lang_es>MQTT</Lang_es>
+    <Lang_de>MQTT</Lang_de>
+    <Lang_it>MQTT</Lang_it>
+    <Lang_he>MQTT</Lang_he>
+    <Lang_zh>MQTT</Lang_zh>
+    <Lang_ru>MQTT</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>or</Lang_Id>
+    <Lang_en>or</Lang_en>
+    <Lang_fr>or</Lang_fr>
+    <Lang_es>or</Lang_es>
+    <Lang_de>or</Lang_de>
+    <Lang_it>or</Lang_it>
+    <Lang_he>or</Lang_he>
+    <Lang_zh>or</Lang_zh>
+    <Lang_ru>or</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>showSensorOptions</Lang_Id>
+    <Lang_en>Show other options</Lang_en>
+    <Lang_fr>Show other options</Lang_fr>
+    <Lang_es>Show other options</Lang_es>
+    <Lang_de>Show other options</Lang_de>
+    <Lang_it>Show other options</Lang_it>
+    <Lang_he>Show other options</Lang_he>
+    <Lang_zh>Show other options</Lang_zh>
+    <Lang_ru>Show other options</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Other Components</Lang_Id>
+    <Lang_en>Other Components</Lang_en>
+    <Lang_fr>Other Components</Lang_fr>
+    <Lang_es>Other Components</Lang_es>
+    <Lang_de>Other Components</Lang_de>
+    <Lang_it>Other Components</Lang_it>
+    <Lang_he>Other Components</Lang_he>
+    <Lang_zh>Other Components</Lang_zh>
+    <Lang_ru>Other Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Core Components</Lang_Id>
+    <Lang_en>Core Components</Lang_en>
+    <Lang_fr>Core Components</Lang_fr>
+    <Lang_es>Core Components</Lang_es>
+    <Lang_de>Core Components</Lang_de>
+    <Lang_it>Core Components</Lang_it>
+    <Lang_he>Core Components</Lang_he>
+    <Lang_zh>Core Components</Lang_zh>
+    <Lang_ru>Core Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>sensors</Lang_Id>
+    <Lang_en>sensors</Lang_en>
+    <Lang_fr>sensors</Lang_fr>
+    <Lang_es>sensors</Lang_es>
+    <Lang_de>sensors</Lang_de>
+    <Lang_it>sensors</Lang_it>
+    <Lang_he>sensors</Lang_he>
+    <Lang_zh>sensors</Lang_zh>
+    <Lang_ru>sensors</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>number</Lang_Id>
+    <Lang_en>number</Lang_en>
+    <Lang_fr>number</Lang_fr>
+    <Lang_es>number</Lang_es>
+    <Lang_de>number</Lang_de>
+    <Lang_it>number</Lang_it>
+    <Lang_he>number</Lang_he>
+    <Lang_zh>number</Lang_zh>
+    <Lang_ru>number</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Hubs</Lang_Id>
+    <Lang_en>Hubs</Lang_en>
+    <Lang_fr>Hubs</Lang_fr>
+    <Lang_es>Hubs</Lang_es>
+    <Lang_de>Hubs</Lang_de>
+    <Lang_it>Hubs</Lang_it>
+    <Lang_he>Hubs</Lang_he>
+    <Lang_zh>Hubs</Lang_zh>
+    <Lang_ru>Hubs</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Dallas Temperature Sensor Hub</Lang_Id>
+    <Lang_en>Dallas Temperature Sensor Hub</Lang_en>
+    <Lang_fr>Dallas Temperature Sensor Hub</Lang_fr>
+    <Lang_es>Dallas Temperature Sensor Hub</Lang_es>
+    <Lang_de>Dallas Temperature Sensor Hub</Lang_de>
+    <Lang_it>Dallas Temperature Sensor Hub</Lang_it>
+    <Lang_he>Dallas Temperature Sensor Hub</Lang_he>
+    <Lang_zh>Dallas Temperature Sensor Hub</Lang_zh>
+    <Lang_ru>Dallas Temperature Sensor Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Dallas Temperature Sensor</Lang_Id>
+    <Lang_en>Dallas Temperature Sensor</Lang_en>
+    <Lang_fr>Dallas Temperature Sensor</Lang_fr>
+    <Lang_es>Dallas Temperature Sensor</Lang_es>
+    <Lang_de>Dallas Temperature Sensor</Lang_de>
+    <Lang_it>Dallas Temperature Sensor</Lang_it>
+    <Lang_he>Dallas Temperature Sensor</Lang_he>
+    <Lang_zh>Dallas Temperature Sensor</Lang_zh>
+    <Lang_ru>Dallas Temperature Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Duty Cycle</Lang_Id>
+    <Lang_en>Duty Cycle</Lang_en>
+    <Lang_fr>Duty Cycle</Lang_fr>
+    <Lang_es>Duty Cycle</Lang_es>
+    <Lang_de>Duty Cycle</Lang_de>
+    <Lang_it>Duty Cycle</Lang_it>
+    <Lang_he>Duty Cycle</Lang_he>
+    <Lang_zh>Duty Cycle</Lang_zh>
+    <Lang_ru>Duty Cycle</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Homeassistant Sensor</Lang_Id>
+    <Lang_en>Homeassistant Sensor</Lang_en>
+    <Lang_fr>Homeassistant Sensor</Lang_fr>
+    <Lang_es>Homeassistant Sensor</Lang_es>
+    <Lang_de>Homeassistant Sensor</Lang_de>
+    <Lang_it>Homeassistant Sensor</Lang_it>
+    <Lang_he>Homeassistant Sensor</Lang_he>
+    <Lang_zh>Homeassistant Sensor</Lang_zh>
+    <Lang_ru>Homeassistant Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>entity_id</Lang_Id>
+    <Lang_en>entity_id</Lang_en>
+    <Lang_fr>entity_id</Lang_fr>
+    <Lang_es>entity_id</Lang_es>
+    <Lang_de>entity_id</Lang_de>
+    <Lang_it>entity_id</Lang_it>
+    <Lang_he>entity_id</Lang_he>
+    <Lang_zh>entity_id</Lang_zh>
+    <Lang_ru>entity_id</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 Hall</Lang_Id>
+    <Lang_en>ESP32 Hall</Lang_en>
+    <Lang_fr>ESP32 Hall</Lang_fr>
+    <Lang_es>ESP32 Hall</Lang_es>
+    <Lang_de>ESP32 Hall</Lang_de>
+    <Lang_it>ESP32 Hall</Lang_it>
+    <Lang_he>ESP32 Hall</Lang_he>
+    <Lang_zh>ESP32 Hall</Lang_zh>
+    <Lang_ru>ESP32 Hall</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>GPIO Binary Sensor</Lang_Id>
+    <Lang_en>GPIO Binary Sensor</Lang_en>
+    <Lang_fr>GPIO Binary Sensor</Lang_fr>
+    <Lang_es>GPIO Binary Sensor</Lang_es>
+    <Lang_de>GPIO Binary Sensor</Lang_de>
+    <Lang_it>GPIO Binary Sensor</Lang_it>
+    <Lang_he>GPIO Binary Sensor</Lang_he>
+    <Lang_zh>GPIO Binary Sensor</Lang_zh>
+    <Lang_ru>GPIO Binary Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Binary Sensor</Lang_Id>
+    <Lang_en>Binary Sensor</Lang_en>
+    <Lang_fr>Binary Sensor</Lang_fr>
+    <Lang_es>Binary Sensor</Lang_es>
+    <Lang_de>Binary Sensor</Lang_de>
+    <Lang_it>Binary Sensor</Lang_it>
+    <Lang_he>Binary Sensor</Lang_he>
+    <Lang_zh>Binary Sensor</Lang_zh>
+    <Lang_ru>Binary Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 Touch Pad Hub</Lang_Id>
+    <Lang_en>ESP32 Touch Pad Hub</Lang_en>
+    <Lang_fr>ESP32 Touch Pad Hub</Lang_fr>
+    <Lang_es>ESP32 Touch Pad Hub</Lang_es>
+    <Lang_de>ESP32 Touch Pad Hub</Lang_de>
+    <Lang_it>ESP32 Touch Pad Hub</Lang_it>
+    <Lang_he>ESP32 Touch Pad Hub</Lang_he>
+    <Lang_zh>ESP32 Touch Pad Hub</Lang_zh>
+    <Lang_ru>ESP32 Touch Pad Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 Touch Pad</Lang_Id>
+    <Lang_en>ESP32 Touch Pad</Lang_en>
+    <Lang_fr>ESP32 Touch Pad</Lang_fr>
+    <Lang_es>ESP32 Touch Pad</Lang_es>
+    <Lang_de>ESP32 Touch Pad</Lang_de>
+    <Lang_it>ESP32 Touch Pad</Lang_it>
+    <Lang_he>ESP32 Touch Pad</Lang_he>
+    <Lang_zh>ESP32 Touch Pad</Lang_zh>
+    <Lang_ru>ESP32 Touch Pad</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SaveYamlToFileID</Lang_Id>
+    <Lang_en>Save to file</Lang_en>
+    <Lang_fr>Save to file</Lang_fr>
+    <Lang_es>Save to file</Lang_es>
+    <Lang_de>Save to file</Lang_de>
+    <Lang_it>Save to file</Lang_it>
+    <Lang_he>Save to file</Lang_he>
+    <Lang_zh>Save to file</Lang_zh>
+    <Lang_ru>Save to file</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SaveYamlToFilePromptID</Lang_Id>
+    <Lang_en>Yaml Saved to file</Lang_en>
+    <Lang_fr>Yaml Saved to file</Lang_fr>
+    <Lang_es>Yaml Saved to file</Lang_es>
+    <Lang_de>Yaml Saved to file</Lang_de>
+    <Lang_it>Yaml Saved to file</Lang_it>
+    <Lang_he>Yaml Saved to file</Lang_he>
+    <Lang_zh>Yaml Saved to file</Lang_zh>
+    <Lang_ru>Yaml Saved to file</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>PN532 NFC/RFID Hub</Lang_Id>
+    <Lang_en>PN532 NFC/RFID Hub</Lang_en>
+    <Lang_fr>PN532 NFC/RFID Hub</Lang_fr>
+    <Lang_es>PN532 NFC/RFID Hub</Lang_es>
+    <Lang_de>PN532 NFC/RFID Hub</Lang_de>
+    <Lang_it>PN532 NFC/RFID Hub</Lang_it>
+    <Lang_he>PN532 NFC/RFID Hub</Lang_he>
+    <Lang_zh>PN532 NFC/RFID Hub</Lang_zh>
+    <Lang_ru>PN532 NFC/RFID Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>PN532 NFC/RFID Tag</Lang_Id>
+    <Lang_en>PN532 NFC/RFID Tag</Lang_en>
+    <Lang_fr>PN532 NFC/RFID Tag</Lang_fr>
+    <Lang_es>PN532 NFC/RFID Tag</Lang_es>
+    <Lang_de>PN532 NFC/RFID Tag</Lang_de>
+    <Lang_it>PN532 NFC/RFID Tag</Lang_it>
+    <Lang_he>PN532 NFC/RFID Tag</Lang_he>
+    <Lang_zh>PN532 NFC/RFID Tag</Lang_zh>
+    <Lang_ru>PN532 NFC/RFID Tag</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Status Binary Sensor</Lang_Id>
+    <Lang_en>Status Binary Sensor</Lang_en>
+    <Lang_fr>Status Binary Sensor</Lang_fr>
+    <Lang_es>Status Binary Sensor</Lang_es>
+    <Lang_de>Status Binary Sensor</Lang_de>
+    <Lang_it>Status Binary Sensor</Lang_it>
+    <Lang_he>Status Binary Sensor</Lang_he>
+    <Lang_zh>Status Binary Sensor</Lang_zh>
+    <Lang_ru>Status Binary Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Homeassistant Binary Sensor</Lang_Id>
+    <Lang_en>Homeassistant Binary Sensor</Lang_en>
+    <Lang_fr>Homeassistant Binary Sensor</Lang_fr>
+    <Lang_es>Homeassistant Binary Sensor</Lang_es>
+    <Lang_de>Homeassistant Binary Sensor</Lang_de>
+    <Lang_it>Homeassistant Binary Sensor</Lang_it>
+    <Lang_he>Homeassistant Binary Sensor</Lang_he>
+    <Lang_zh>Homeassistant Binary Sensor</Lang_zh>
+    <Lang_ru>Homeassistant Binary Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Uptime Sensor</Lang_Id>
+    <Lang_en>Uptime Sensor</Lang_en>
+    <Lang_fr>Uptime Sensor</Lang_fr>
+    <Lang_es>Uptime Sensor</Lang_es>
+    <Lang_de>Uptime Sensor</Lang_de>
+    <Lang_it>Uptime Sensor</Lang_it>
+    <Lang_he>Uptime Sensor</Lang_he>
+    <Lang_zh>Uptime Sensor</Lang_zh>
+    <Lang_ru>Uptime Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>WiFi Signal Sensor</Lang_Id>
+    <Lang_en>WiFi Signal Sensor</Lang_en>
+    <Lang_fr>WiFi Signal Sensor</Lang_fr>
+    <Lang_es>WiFi Signal Sensor</Lang_es>
+    <Lang_de>WiFi Signal Sensor</Lang_de>
+    <Lang_it>WiFi Signal Sensor</Lang_it>
+    <Lang_he>WiFi Signal Sensor</Lang_he>
+    <Lang_zh>WiFi Signal Sensor</Lang_zh>
+    <Lang_ru>WiFi Signal Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AddHubPrompt</Lang_Id>
+    <Lang_en>One or more components are required for this component. The needed component(s) will be added for you now.</Lang_en>
+    <Lang_fr>One or more components are required for this component. The needed component(s) will be added for you now.</Lang_fr>
+    <Lang_es>One or more components are required for this component. The needed component(s) will be added for you now.</Lang_es>
+    <Lang_de>One or more components are required for this component. The needed component(s) will be added for you now.</Lang_de>
+    <Lang_it>One or more components are required for this component. The needed component(s) will be added for you now.</Lang_it>
+    <Lang_he>One or more components are required for this component. The needed component(s) will be added for you now.</Lang_he>
+    <Lang_zh>One or more components are required for this component. The needed component(s) will be added for you now.</Lang_zh>
+    <Lang_ru>One or more components are required for this component. The needed component(s) will be added for you now.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>GPIO Output</Lang_Id>
+    <Lang_en>GPIO Output</Lang_en>
+    <Lang_fr>GPIO Output</Lang_fr>
+    <Lang_es>GPIO Output</Lang_es>
+    <Lang_de>GPIO Output</Lang_de>
+    <Lang_it>GPIO Output</Lang_it>
+    <Lang_he>GPIO Output</Lang_he>
+    <Lang_zh>GPIO Output</Lang_zh>
+    <Lang_ru>GPIO Output</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Output</Lang_Id>
+    <Lang_en>Output</Lang_en>
+    <Lang_fr>Output</Lang_fr>
+    <Lang_es>Output</Lang_es>
+    <Lang_de>Output</Lang_de>
+    <Lang_it>Output</Lang_it>
+    <Lang_he>Output</Lang_he>
+    <Lang_zh>Output</Lang_zh>
+    <Lang_ru>Output</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP8266 Software PWM Output</Lang_Id>
+    <Lang_en>ESP8266 Software PWM Output</Lang_en>
+    <Lang_fr>ESP8266 Software PWM Output</Lang_fr>
+    <Lang_es>ESP8266 Software PWM Output</Lang_es>
+    <Lang_de>ESP8266 Software PWM Output</Lang_de>
+    <Lang_it>ESP8266 Software PWM Output</Lang_it>
+    <Lang_he>ESP8266 Software PWM Output</Lang_he>
+    <Lang_zh>ESP8266 Software PWM Output</Lang_zh>
+    <Lang_ru>ESP8266 Software PWM Output</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 LEDC Output</Lang_Id>
+    <Lang_en>ESP32 LEDC Output</Lang_en>
+    <Lang_fr>ESP32 LEDC Output</Lang_fr>
+    <Lang_es>ESP32 LEDC Output</Lang_es>
+    <Lang_de>ESP32 LEDC Output</Lang_de>
+    <Lang_it>ESP32 LEDC Output</Lang_it>
+    <Lang_he>ESP32 LEDC Output</Lang_he>
+    <Lang_zh>ESP32 LEDC Output</Lang_zh>
+    <Lang_ru>ESP32 LEDC Output</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MY9231/MY9291 LED Driver Hub</Lang_Id>
+    <Lang_en>MY9231/MY9291 LED Driver Hub</Lang_en>
+    <Lang_fr>MY9231/MY9291 LED Driver Hub</Lang_fr>
+    <Lang_es>MY9231/MY9291 LED Driver Hub</Lang_es>
+    <Lang_de>MY9231/MY9291 LED Driver Hub</Lang_de>
+    <Lang_it>MY9231/MY9291 LED Driver Hub</Lang_it>
+    <Lang_he>MY9231/MY9291 LED Driver Hub</Lang_he>
+    <Lang_zh>MY9231/MY9291 LED Driver Hub</Lang_zh>
+    <Lang_ru>MY9231/MY9291 LED Driver Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MY9231/MY9291 LED Driver</Lang_Id>
+    <Lang_en>MY9231/MY9291 LED Driver</Lang_en>
+    <Lang_fr>MY9231/MY9291 LED Driver</Lang_fr>
+    <Lang_es>MY9231/MY9291 LED Driver</Lang_es>
+    <Lang_de>MY9231/MY9291 LED Driver</Lang_de>
+    <Lang_it>MY9231/MY9291 LED Driver</Lang_it>
+    <Lang_he>MY9231/MY9291 LED Driver</Lang_he>
+    <Lang_zh>MY9231/MY9291 LED Driver</Lang_zh>
+    <Lang_ru>MY9231/MY9291 LED Driver</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Strobe Effect</Lang_Id>
+    <Lang_en>Strobe Effect</Lang_en>
+    <Lang_fr>Strobe Effect</Lang_fr>
+    <Lang_es>Strobe Effect</Lang_es>
+    <Lang_de>Strobe Effect</Lang_de>
+    <Lang_it>Strobe Effect</Lang_it>
+    <Lang_he>Strobe Effect</Lang_he>
+    <Lang_zh>Strobe Effect</Lang_zh>
+    <Lang_ru>Strobe Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Random Effect</Lang_Id>
+    <Lang_en>Random Effect</Lang_en>
+    <Lang_fr>Random Effect</Lang_fr>
+    <Lang_es>Random Effect</Lang_es>
+    <Lang_de>Random Effect</Lang_de>
+    <Lang_it>Random Effect</Lang_it>
+    <Lang_he>Random Effect</Lang_he>
+    <Lang_zh>Random Effect</Lang_zh>
+    <Lang_ru>Random Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Flicker Effect</Lang_Id>
+    <Lang_en>Flicker Effect</Lang_en>
+    <Lang_fr>Flicker Effect</Lang_fr>
+    <Lang_es>Flicker Effect</Lang_es>
+    <Lang_de>Flicker Effect</Lang_de>
+    <Lang_it>Flicker Effect</Lang_it>
+    <Lang_he>Flicker Effect</Lang_he>
+    <Lang_zh>Flicker Effect</Lang_zh>
+    <Lang_ru>Flicker Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Lambda Effect</Lang_Id>
+    <Lang_en>Lambda Effect</Lang_en>
+    <Lang_fr>Lambda Effect</Lang_fr>
+    <Lang_es>Lambda Effect</Lang_es>
+    <Lang_de>Lambda Effect</Lang_de>
+    <Lang_it>Lambda Effect</Lang_it>
+    <Lang_he>Lambda Effect</Lang_he>
+    <Lang_zh>Lambda Effect</Lang_zh>
+    <Lang_ru>Lambda Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Addressable Rainbow Effect</Lang_Id>
+    <Lang_en>Addressable Rainbow Effect</Lang_en>
+    <Lang_fr>Addressable Rainbow Effect</Lang_fr>
+    <Lang_es>Addressable Rainbow Effect</Lang_es>
+    <Lang_de>Addressable Rainbow Effect</Lang_de>
+    <Lang_it>Addressable Rainbow Effect</Lang_it>
+    <Lang_he>Addressable Rainbow Effect</Lang_he>
+    <Lang_zh>Addressable Rainbow Effect</Lang_zh>
+    <Lang_ru>Addressable Rainbow Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Addressable Scan Effect</Lang_Id>
+    <Lang_en>Addressable Scan Effect</Lang_en>
+    <Lang_fr>Addressable Scan Effect</Lang_fr>
+    <Lang_es>Addressable Scan Effect</Lang_es>
+    <Lang_de>Addressable Scan Effect</Lang_de>
+    <Lang_it>Addressable Scan Effect</Lang_it>
+    <Lang_he>Addressable Scan Effect</Lang_he>
+    <Lang_zh>Addressable Scan Effect</Lang_zh>
+    <Lang_ru>Addressable Scan Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Addressable Twinkle Effect</Lang_Id>
+    <Lang_en>Addressable Twinkle Effect</Lang_en>
+    <Lang_fr>Addressable Twinkle Effect</Lang_fr>
+    <Lang_es>Addressable Twinkle Effect</Lang_es>
+    <Lang_de>Addressable Twinkle Effect</Lang_de>
+    <Lang_it>Addressable Twinkle Effect</Lang_it>
+    <Lang_he>Addressable Twinkle Effect</Lang_he>
+    <Lang_zh>Addressable Twinkle Effect</Lang_zh>
+    <Lang_ru>Addressable Twinkle Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Addressable Fireworks Effect</Lang_Id>
+    <Lang_en>Addressable Fireworks Effect</Lang_en>
+    <Lang_fr>Addressable Fireworks Effect</Lang_fr>
+    <Lang_es>Addressable Fireworks Effect</Lang_es>
+    <Lang_de>Addressable Fireworks Effect</Lang_de>
+    <Lang_it>Addressable Fireworks Effect</Lang_it>
+    <Lang_he>Addressable Fireworks Effect</Lang_he>
+    <Lang_zh>Addressable Fireworks Effect</Lang_zh>
+    <Lang_ru>Addressable Fireworks Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Addressable Flicker Effect</Lang_Id>
+    <Lang_en>Addressable Flicker Effect</Lang_en>
+    <Lang_fr>Addressable Flicker Effect</Lang_fr>
+    <Lang_es>Addressable Flicker Effect</Lang_es>
+    <Lang_de>Addressable Flicker Effect</Lang_de>
+    <Lang_it>Addressable Flicker Effect</Lang_it>
+    <Lang_he>Addressable Flicker Effect</Lang_he>
+    <Lang_zh>Addressable Flicker Effect</Lang_zh>
+    <Lang_ru>Addressable Flicker Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Addressable Lambda Effect</Lang_Id>
+    <Lang_en>Addressable Lambda Effect</Lang_en>
+    <Lang_fr>Addressable Lambda Effect</Lang_fr>
+    <Lang_es>Addressable Lambda Effect</Lang_es>
+    <Lang_de>Addressable Lambda Effect</Lang_de>
+    <Lang_it>Addressable Lambda Effect</Lang_it>
+    <Lang_he>Addressable Lambda Effect</Lang_he>
+    <Lang_zh>Addressable Lambda Effect</Lang_zh>
+    <Lang_ru>Addressable Lambda Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Automation Light Effect</Lang_Id>
+    <Lang_en>Automation Light Effect</Lang_en>
+    <Lang_fr>Automation Light Effect</Lang_fr>
+    <Lang_es>Automation Light Effect</Lang_es>
+    <Lang_de>Automation Light Effect</Lang_de>
+    <Lang_it>Automation Light Effect</Lang_it>
+    <Lang_he>Automation Light Effect</Lang_he>
+    <Lang_zh>Automation Light Effect</Lang_zh>
+    <Lang_ru>Automation Light Effect</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Binary Light</Lang_Id>
+    <Lang_en>Binary Light</Lang_en>
+    <Lang_fr>Binary Light</Lang_fr>
+    <Lang_es>Binary Light</Lang_es>
+    <Lang_de>Binary Light</Lang_de>
+    <Lang_it>Binary Light</Lang_it>
+    <Lang_he>Binary Light</Lang_he>
+    <Lang_zh>Binary Light</Lang_zh>
+    <Lang_ru>Binary Light</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Light</Lang_Id>
+    <Lang_en>Light</Lang_en>
+    <Lang_fr>Light</Lang_fr>
+    <Lang_es>Light</Lang_es>
+    <Lang_de>Light</Lang_de>
+    <Lang_it>Light</Lang_it>
+    <Lang_he>Light</Lang_he>
+    <Lang_zh>Light</Lang_zh>
+    <Lang_ru>Light</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>showOutputOptions</Lang_Id>
+    <Lang_en>Show other options</Lang_en>
+    <Lang_fr>Show other options</Lang_fr>
+    <Lang_es>Show other options</Lang_es>
+    <Lang_de>Show other options</Lang_de>
+    <Lang_it>Show other options</Lang_it>
+    <Lang_he>Show other options</Lang_he>
+    <Lang_zh>Show other options</Lang_zh>
+    <Lang_ru>Show other options</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>showLightOptions</Lang_Id>
+    <Lang_en>Show other options</Lang_en>
+    <Lang_fr>Show other options</Lang_fr>
+    <Lang_es>Show other options</Lang_es>
+    <Lang_de>Show other options</Lang_de>
+    <Lang_it>Show other options</Lang_it>
+    <Lang_he>Show other options</Lang_he>
+    <Lang_zh>Show other options</Lang_zh>
+    <Lang_ru>Show other options</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AddLightEffects</Lang_Id>
+    <Lang_en>Add Light Effects</Lang_en>
+    <Lang_fr>Add Light Effects</Lang_fr>
+    <Lang_es>Add Light Effects</Lang_es>
+    <Lang_de>Add Light Effects</Lang_de>
+    <Lang_it>Add Light Effects</Lang_it>
+    <Lang_he>Add Light Effects</Lang_he>
+    <Lang_zh>Add Light Effects</Lang_zh>
+    <Lang_ru>Add Light Effects</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AddingLightEffectsPrompt</Lang_Id>
+    <Lang_en>Select the desired light effect to add and fill-in the form.</Lang_en>
+    <Lang_fr>Select the desired light effect to add and fill-in the form.</Lang_fr>
+    <Lang_es>Select the desired light effect to add and fill-in the form.</Lang_es>
+    <Lang_de>Select the desired light effect to add and fill-in the form.</Lang_de>
+    <Lang_it>Select the desired light effect to add and fill-in the form.</Lang_it>
+    <Lang_he>Select the desired light effect to add and fill-in the form.</Lang_he>
+    <Lang_zh>Select the desired light effect to add and fill-in the form.</Lang_zh>
+    <Lang_ru>Select the desired light effect to add and fill-in the form.</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Add color</Lang_Id>
+    <Lang_en>Add color</Lang_en>
+    <Lang_fr>Add color</Lang_fr>
+    <Lang_es>Add color</Lang_es>
+    <Lang_de>Add color</Lang_de>
+    <Lang_it>Add color</Lang_it>
+    <Lang_he>Add color</Lang_he>
+    <Lang_zh>Add color</Lang_zh>
+    <Lang_ru>Add color</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Remove color</Lang_Id>
+    <Lang_en>Remove color</Lang_en>
+    <Lang_fr>Remove color</Lang_fr>
+    <Lang_es>Remove color</Lang_es>
+    <Lang_de>Remove color</Lang_de>
+    <Lang_it>Remove color</Lang_it>
+    <Lang_he>Remove color</Lang_he>
+    <Lang_zh>Remove color</Lang_zh>
+    <Lang_ru>Remove color</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>remove</Lang_Id>
+    <Lang_en>remove</Lang_en>
+    <Lang_fr>remove</Lang_fr>
+    <Lang_es>remove</Lang_es>
+    <Lang_de>remove</Lang_de>
+    <Lang_it>remove</Lang_it>
+    <Lang_he>remove</Lang_he>
+    <Lang_zh>remove</Lang_zh>
+    <Lang_ru>remove</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>RGB Light</Lang_Id>
+    <Lang_en>RGB Light</Lang_en>
+    <Lang_fr>RGB Light</Lang_fr>
+    <Lang_es>RGB Light</Lang_es>
+    <Lang_de>RGB Light</Lang_de>
+    <Lang_it>RGB Light</Lang_it>
+    <Lang_he>RGB Light</Lang_he>
+    <Lang_zh>RGB Light</Lang_zh>
+    <Lang_ru>RGB Light</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>RGBW Light</Lang_Id>
+    <Lang_en>RGBW Light</Lang_en>
+    <Lang_fr>RGBW Light</Lang_fr>
+    <Lang_es>RGBW Light</Lang_es>
+    <Lang_de>RGBW Light</Lang_de>
+    <Lang_it>RGBW Light</Lang_it>
+    <Lang_he>RGBW Light</Lang_he>
+    <Lang_zh>RGBW Light</Lang_zh>
+    <Lang_ru>RGBW Light</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoOuputComponents</Lang_Id>
+    <Lang_en>There are no output components defined</Lang_en>
+    <Lang_fr>There are no output components defined</Lang_fr>
+    <Lang_es>There are no output components defined</Lang_es>
+    <Lang_de>There are no output components defined</Lang_de>
+    <Lang_it>There are no output components defined</Lang_it>
+    <Lang_he>There are no output components defined</Lang_he>
+    <Lang_zh>There are no output components defined</Lang_zh>
+    <Lang_ru>There are no output components defined</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoPowerSupplyComponents</Lang_Id>
+    <Lang_en>There are no power supply components defined</Lang_en>
+    <Lang_fr>There are no power supply components defined</Lang_fr>
+    <Lang_es>There are no power supply components defined</Lang_es>
+    <Lang_de>There are no components defined</Lang_de>
+    <Lang_it>There are no  power supply components defined</Lang_it>
+    <Lang_he>There are no  power supply components defined</Lang_he>
+    <Lang_zh>There are no  power supply components defined</Lang_zh>
+    <Lang_ru>There are no  power supply components defined</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>FastLED Light SPI</Lang_Id>
+    <Lang_en>FastLED Light SPI</Lang_en>
+    <Lang_fr>FastLED Light</Lang_fr>
+    <Lang_es>FastLED Light SPI</Lang_es>
+    <Lang_de>FastLED Light SPI</Lang_de>
+    <Lang_it>FastLED Light SPI</Lang_it>
+    <Lang_he>FastLED Light SPI</Lang_he>
+    <Lang_zh>FastLED Light SPI</Lang_zh>
+    <Lang_ru>FastLED Light SPI</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>FastLED Light Clockless</Lang_Id>
+    <Lang_en>FastLED Light Clockless</Lang_en>
+    <Lang_fr>FastLED Light Clockless</Lang_fr>
+    <Lang_es>FastLED Light Clockless</Lang_es>
+    <Lang_de>FastLED Light Clockless</Lang_de>
+    <Lang_it>FastLED Light Clockless</Lang_it>
+    <Lang_he>FastLED Light Clockless</Lang_he>
+    <Lang_zh>FastLED Light Clockless</Lang_zh>
+    <Lang_ru>FastLED Light Clockless</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoSPIBusComponents</Lang_Id>
+    <Lang_en>There Are No SPI Bus Components</Lang_en>
+    <Lang_fr>There Are No SPI Bus Components</Lang_fr>
+    <Lang_es>There Are No SPI Bus Components</Lang_es>
+    <Lang_de>There Are No SPI Bus Components</Lang_de>
+    <Lang_it>There Are No SPI Bus Components</Lang_it>
+    <Lang_he>There Are No SPI Bus Components</Lang_he>
+    <Lang_zh>There Are No SPI Bus Components</Lang_zh>
+    <Lang_ru>There Are No SPI Bus Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoDallasHubComponents</Lang_Id>
+    <Lang_en>There Are No Dallas Hub Components</Lang_en>
+    <Lang_fr>There Are No Dallas Hub Components</Lang_fr>
+    <Lang_es>There Are No Dallas Hub Components</Lang_es>
+    <Lang_de>There Are No Dallas Hub Components</Lang_de>
+    <Lang_it>There Are No Dallas Hub Components</Lang_it>
+    <Lang_he>There Are No Dallas Hub Components</Lang_he>
+    <Lang_zh>There Are No Dallas Hub Components</Lang_zh>
+    <Lang_ru>There Are No Dallas Hub Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoMY9231DriverHubComponents</Lang_Id>
+    <Lang_en>There Are No MY9231 Driver Hub Components</Lang_en>
+    <Lang_fr>There Are No MY9231 Driver Hub Components</Lang_fr>
+    <Lang_es>There Are No MY9231 Driver Hub Components</Lang_es>
+    <Lang_de>There Are No MY9231 Driver Hub Components</Lang_de>
+    <Lang_it>There Are No MY9231 Driver Hub Components</Lang_it>
+    <Lang_he>There Are No MY9231 Driver Hub Components</Lang_he>
+    <Lang_zh>There Are No MY9231 Driver Hub Components</Lang_zh>
+    <Lang_ru>chipThere Are No MY9231 Driver Hub Componentsset</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoSM16716DriverHubComponents</Lang_Id>
+    <Lang_en>There Are No SM16716 Driver Hub Components</Lang_en>
+    <Lang_fr>There Are No SM16716 Driver Hub Components</Lang_fr>
+    <Lang_es>There Are No SM16716 Driver Hub Components</Lang_es>
+    <Lang_de>There Are No SM16716 Driver Hub Components</Lang_de>
+    <Lang_it>There Are No SM16716 Driver Hub Components</Lang_it>
+    <Lang_he>There Are No SM16716 Driver Hub Components</Lang_he>
+    <Lang_zh>There Are No SM16716 Driver Hub Components</Lang_zh>
+    <Lang_ru>chipThere Are No SM16716 Driver Hub Componentsset</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoSensorComponents</Lang_Id>
+    <Lang_en>There Are No Sensor Components</Lang_en>
+    <Lang_fr>There Are No Sensor Components</Lang_fr>
+    <Lang_es>There Are No Sensor Components</Lang_es>
+    <Lang_de>There Are No Sensor Components</Lang_de>
+    <Lang_it>There Are No Sensor Components</Lang_it>
+    <Lang_he>There Are No Sensor Components</Lang_he>
+    <Lang_zh>There Are No Sensor Components</Lang_zh>
+    <Lang_ru>There Are No Sensor Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoUARTBusComponents</Lang_Id>
+    <Lang_en>There Are No UART Bus Components</Lang_en>
+    <Lang_fr>There Are No UART Bus Components</Lang_fr>
+    <Lang_es>There Are No UART Bus Components</Lang_es>
+    <Lang_de>There Are No UART Bus Components</Lang_de>
+    <Lang_it>There Are No UART Bus Components</Lang_it>
+    <Lang_he>There Are No UART Bus Components</Lang_he>
+    <Lang_zh>There Are No UART Bus Components</Lang_zh>
+    <Lang_ru>There Are No UART Bus Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SM16716 LED Driver</Lang_Id>
+    <Lang_en>SM16716 LED Driver</Lang_en>
+    <Lang_fr>SM16716 LED Driver</Lang_fr>
+    <Lang_es>SM16716 LED Driver</Lang_es>
+    <Lang_de>SM16716 LED Driver</Lang_de>
+    <Lang_it>SM16716 LED Driver</Lang_it>
+    <Lang_he>SM16716 LED driver</Lang_he>
+    <Lang_zh>SM16716 LED driver</Lang_zh>
+    <Lang_ru>SM16716 LED driver</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SM16716 LED Driver Hub</Lang_Id>
+    <Lang_en>SM16716 LED Driver Hub</Lang_en>
+    <Lang_fr>SM16716 LED Driver Hub</Lang_fr>
+    <Lang_es>SM16716 LED Driver Hub</Lang_es>
+    <Lang_de>SM16716 LED Driver Hub</Lang_de>
+    <Lang_it>SM16716 LED driver Hub</Lang_it>
+    <Lang_he>SM16716 LED driver Hub</Lang_he>
+    <Lang_zh>SM16716 LED Driver Hub</Lang_zh>
+    <Lang_ru>SM16716 LED Driver Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>showSwitchOptions</Lang_Id>
+    <Lang_en>Show other options</Lang_en>
+    <Lang_fr>Show other options</Lang_fr>
+    <Lang_es>Show other options</Lang_es>
+    <Lang_de>Show other options</Lang_de>
+    <Lang_it>Show other options</Lang_it>
+    <Lang_he>Show other options</Lang_he>
+    <Lang_zh>Show other options</Lang_zh>
+    <Lang_ru>Show other options</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>GPIO Switch</Lang_Id>
+    <Lang_en>GPIO Switch</Lang_en>
+    <Lang_fr>GPIO Switch</Lang_fr>
+    <Lang_es>GPIO Switch</Lang_es>
+    <Lang_de>GPIO Switch</Lang_de>
+    <Lang_it>GPIO Switch</Lang_it>
+    <Lang_he>GPIO Switch</Lang_he>
+    <Lang_zh>GPIO Switch</Lang_zh>
+    <Lang_ru>GPIO Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Restart Switch</Lang_Id>
+    <Lang_en>Restart Switch</Lang_en>
+    <Lang_fr>Restart Switch</Lang_fr>
+    <Lang_es>Restart Switch</Lang_es>
+    <Lang_de>Restart Switch</Lang_de>
+    <Lang_it>Restart Switch</Lang_it>
+    <Lang_he>Restart Switch</Lang_he>
+    <Lang_zh>Restart Switch</Lang_zh>
+    <Lang_ru>Restart Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Shutdown Switch</Lang_Id>
+    <Lang_en>Shutdown Switch</Lang_en>
+    <Lang_fr>Shutdown Switch</Lang_fr>
+    <Lang_es>Shutdown Switch</Lang_es>
+    <Lang_de>Shutdown Switch</Lang_de>
+    <Lang_it>Shutdown Switch</Lang_it>
+    <Lang_he>Shutdown Switch</Lang_he>
+    <Lang_zh>Shutdown Switch</Lang_zh>
+    <Lang_ru>Shutdown Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Generic Output Switch</Lang_Id>
+    <Lang_en>Generic Output Switch</Lang_en>
+    <Lang_fr>Generic Output Switch</Lang_fr>
+    <Lang_es>Generic Output Switch</Lang_es>
+    <Lang_de>Generic Output Switch</Lang_de>
+    <Lang_it>Generic Output Switch</Lang_it>
+    <Lang_he>Generic Output Switch</Lang_he>
+    <Lang_zh>Generic Output Switch</Lang_zh>
+    <Lang_ru>Generic Output Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>UART Switch</Lang_Id>
+    <Lang_en>UART Switch</Lang_en>
+    <Lang_fr>UART Switch</Lang_fr>
+    <Lang_es>UART Switch</Lang_es>
+    <Lang_de>UART Switch</Lang_de>
+    <Lang_it>UART Switch</Lang_it>
+    <Lang_he>UART Switch</Lang_he>
+    <Lang_zh>UART Switch</Lang_zh>
+    <Lang_ru>UART Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Template Switch</Lang_Id>
+    <Lang_en>Template Switch</Lang_en>
+    <Lang_fr>Template Switch</Lang_fr>
+    <Lang_es>Template Switch</Lang_es>
+    <Lang_de>Template Switch</Lang_de>
+    <Lang_it>Template Switch</Lang_it>
+    <Lang_he>Template Switch</Lang_he>
+    <Lang_zh>Template Switch</Lang_zh>
+    <Lang_ru>Template Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Display</Lang_Id>
+    <Lang_en>Display</Lang_en>
+    <Lang_fr>Display</Lang_fr>
+    <Lang_es>Display</Lang_es>
+    <Lang_de>Display</Lang_de>
+    <Lang_it>Display</Lang_it>
+    <Lang_he>Display</Lang_he>
+    <Lang_zh>Display</Lang_zh>
+    <Lang_ru>Display</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Display Font</Lang_Id>
+    <Lang_en>Display Font</Lang_en>
+    <Lang_fr>Display Font</Lang_fr>
+    <Lang_es>Display Font</Lang_es>
+    <Lang_de>Display Font</Lang_de>
+    <Lang_it>Display Font</Lang_it>
+    <Lang_he>Display Font</Lang_he>
+    <Lang_zh>Display Font</Lang_zh>
+    <Lang_ru>Display Font</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Display Image</Lang_Id>
+    <Lang_en>Display Image</Lang_en>
+    <Lang_fr>Display Image</Lang_fr>
+    <Lang_es>Display Image</Lang_es>
+    <Lang_de>Display Image</Lang_de>
+    <Lang_it>Display Image</Lang_it>
+    <Lang_he>Display Image</Lang_he>
+    <Lang_zh>Display Image</Lang_zh>
+    <Lang_ru>Display Image</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Switch</Lang_Id>
+    <Lang_en>Switch</Lang_en>
+    <Lang_fr>Switch</Lang_fr>
+    <Lang_es>Switch</Lang_es>
+    <Lang_de>Switch</Lang_de>
+    <Lang_it>Switch</Lang_it>
+    <Lang_he>Switch</Lang_he>
+    <Lang_zh>Switch</Lang_zh>
+    <Lang_ru>Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Template Sensor</Lang_Id>
+    <Lang_en>Template Sensor</Lang_en>
+    <Lang_fr>Template Sensor</Lang_fr>
+    <Lang_es>Template Sensor</Lang_es>
+    <Lang_de>Template Sensor</Lang_de>
+    <Lang_it>Template Sensor</Lang_it>
+    <Lang_he>Template Sensor</Lang_he>
+    <Lang_zh>Template Sensor</Lang_zh>
+    <Lang_ru>Template Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Template Binary Sensor</Lang_Id>
+    <Lang_en>Template Binary Sensor</Lang_en>
+    <Lang_fr>Template Binary Sensor</Lang_fr>
+    <Lang_es>Template Binary Sensor</Lang_es>
+    <Lang_de>Template Binary Sensor</Lang_de>
+    <Lang_it>Template Binary Sensor</Lang_it>
+    <Lang_he>Template Binary Sensor</Lang_he>
+    <Lang_zh>Template Binary Sensor</Lang_zh>
+    <Lang_ru>Template Binary Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>NTC Sensor</Lang_Id>
+    <Lang_en>NTC Sensor</Lang_en>
+    <Lang_fr>NTC Sensor</Lang_fr>
+    <Lang_es>NTC Sensor</Lang_es>
+    <Lang_de>NTC Sensor</Lang_de>
+    <Lang_it>NTC Sensor</Lang_it>
+    <Lang_he>NTC Sensor</Lang_he>
+    <Lang_zh>NTC Sensor</Lang_zh>
+    <Lang_ru>NTC Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>WiFi Signal</Lang_Id>
+    <Lang_en>WiFi Signal</Lang_en>
+    <Lang_fr>WiFi Signal</Lang_fr>
+    <Lang_es>WiFi Signal</Lang_es>
+    <Lang_de>WiFi Signal</Lang_de>
+    <Lang_it>WiFi Signal</Lang_it>
+    <Lang_he>WiFi Signal</Lang_he>
+    <Lang_zh>WiFi Signal</Lang_zh>
+    <Lang_ru>WiFi Signal</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Uptime Sensor</Lang_Id>
+    <Lang_en>Uptime Sensor</Lang_en>
+    <Lang_fr>Uptime Sensor</Lang_fr>
+    <Lang_es>Uptime Sensor</Lang_es>
+    <Lang_de>Uptime Sensor</Lang_de>
+    <Lang_it>Uptime Sensor</Lang_it>
+    <Lang_he>Uptime Sensor</Lang_he>
+    <Lang_zh>Uptime Sensor</Lang_zh>
+    <Lang_ru>Uptime Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Ultrasonic Distance</Lang_Id>
+    <Lang_en>Ultrasonic Distance</Lang_en>
+    <Lang_fr>Ultrasonic Distance</Lang_fr>
+    <Lang_es>Ultrasonic Distance</Lang_es>
+    <Lang_de>Ultrasonic Distance</Lang_de>
+    <Lang_it>Ultrasonic Distance</Lang_it>
+    <Lang_he>Ultrasonic Distance</Lang_he>
+    <Lang_zh>Ultrasonic Distance</Lang_zh>
+    <Lang_ru>Ultrasonic Distance</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>DHT12 Temperature+Humidity</Lang_Id>
+    <Lang_en>DHT12 Temperature+Humidity</Lang_en>
+    <Lang_fr>DHT12 Temperature+Humidity</Lang_fr>
+    <Lang_es>DHT12 Temperature+Humidity</Lang_es>
+    <Lang_de>DHT12 Temperature+Humidity</Lang_de>
+    <Lang_it>DHT12 Temperature+Humidity</Lang_it>
+    <Lang_he>DHT12 Temperature+Humidity</Lang_he>
+    <Lang_zh>DHT12 Temperature+Humidity</Lang_zh>
+    <Lang_ru>DHT12 Temperature+Humidity</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>AM2320 Temperature+Humidity</Lang_Id>
+    <Lang_en>AM2320 Temperature+Humidity</Lang_en>
+    <Lang_fr>AM2320 Temperature+Humidity</Lang_fr>
+    <Lang_es>AM2320 Temperature+Humidity</Lang_es>
+    <Lang_de>AM2320 Temperature+Humidity</Lang_de>
+    <Lang_it>AM2320 Temperature+Humidity</Lang_it>
+    <Lang_he>AM2320 Temperature+Humidity</Lang_he>
+    <Lang_zh>AM2320 Temperature+Humidity</Lang_zh>
+    <Lang_ru>AM2320 Temperature+Humidity</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>DHT Temperature+Humidity</Lang_Id>
+    <Lang_en>DHT Temperature+Humidity</Lang_en>
+    <Lang_fr>DHT Temperature+Humidity</Lang_fr>
+    <Lang_es>DHT Temperature+Humidity</Lang_es>
+    <Lang_de>DHT Temperature+Humidity</Lang_de>
+    <Lang_it>DHT Temperature+Humidity</Lang_it>
+    <Lang_he>DHT Temperature+Humidity</Lang_he>
+    <Lang_zh>DHT Temperature+Humidity</Lang_zh>
+    <Lang_ru>DHT Temperature+Humidity</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 Bluetooth RSSI</Lang_Id>
+    <Lang_en>ESP32 Bluetooth RSSI</Lang_en>
+    <Lang_fr>ESP32 Bluetooth RSSI</Lang_fr>
+    <Lang_es>ESP32 Bluetooth RSSI</Lang_es>
+    <Lang_de>ESP32 Bluetooth RSSI</Lang_de>
+    <Lang_it>ESP32 Bluetooth RSSI</Lang_it>
+    <Lang_he>ESP32 Bluetooth RSSI</Lang_he>
+    <Lang_zh>ESP32 Bluetooth RSSI</Lang_zh>
+    <Lang_ru>ESP32 Bluetooth RSSI</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Analog To Digital Converter</Lang_Id>
+    <Lang_en>Analog To Digital Converter</Lang_en>
+    <Lang_fr>Analog To Digital Converter</Lang_fr>
+    <Lang_es>Analog To Digital Converter</Lang_es>
+    <Lang_de>Analog To Digital Converter</Lang_de>
+    <Lang_it>Analog To Digital Converter</Lang_it>
+    <Lang_he>Analog To Digital Converter</Lang_he>
+    <Lang_zh>Analog To Digital Converter</Lang_zh>
+    <Lang_ru>Analog To Digital Converter</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Resistance Sensor</Lang_Id>
+    <Lang_en>Resistance Sensor</Lang_en>
+    <Lang_fr>Resistance Sensor</Lang_fr>
+    <Lang_es>Resistance Sensor</Lang_es>
+    <Lang_de>Resistance Sensor</Lang_de>
+    <Lang_it>Resistance Sensor</Lang_it>
+    <Lang_he>Resistance Sensor</Lang_he>
+    <Lang_zh>Resistance Sensor</Lang_zh>
+    <Lang_ru>Resistance Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>PCA9685 Hub</Lang_Id>
+    <Lang_en>PCA9685 Hub</Lang_en>
+    <Lang_fr>PCA9685 Hub</Lang_fr>
+    <Lang_es>PCA9685 Hub</Lang_es>
+    <Lang_de>PCA9685 Hub</Lang_de>
+    <Lang_it>PCA9685 Hub</Lang_it>
+    <Lang_he>PCA9685 Hub</Lang_he>
+    <Lang_zh>PCA9685 Hub</Lang_zh>
+    <Lang_ru>PCA9685 Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>PCA9685</Lang_Id>
+    <Lang_en>PCA9685</Lang_en>
+    <Lang_fr>PCA9685</Lang_fr>
+    <Lang_es>PCA9685</Lang_es>
+    <Lang_de>PCA9685</Lang_de>
+    <Lang_it>PCA9685</Lang_it>
+    <Lang_he>PCA9685</Lang_he>
+    <Lang_zh>PCA9685</Lang_zh>
+    <Lang_ru>PCA9685</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 BLE Presence</Lang_Id>
+    <Lang_en>ESP32 BLE Presence</Lang_en>
+    <Lang_fr>ESP32 BLE Presence</Lang_fr>
+    <Lang_es>ESP32 BLE Presence</Lang_es>
+    <Lang_de>ESP32 BLE Presence</Lang_de>
+    <Lang_it>ESP32 BLE Presence</Lang_it>
+    <Lang_he>ESP32 BLE Presence</Lang_he>
+    <Lang_zh>ESP32 BLE Presence</Lang_zh>
+    <Lang_ru>ESP32 BLE Presence</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 BLE Tracker Hub</Lang_Id>
+    <Lang_en>ESP32 BLE Tracker Hub</Lang_en>
+    <Lang_fr>ESP32 BLE Tracker Hub</Lang_fr>
+    <Lang_es>ESP32 BLE Tracker Hub</Lang_es>
+    <Lang_de>ESP32 BLE Tracker Hub</Lang_de>
+    <Lang_it>ESP32 BLE Tracker Hub</Lang_it>
+    <Lang_he>ESP32 BLE Tracker Hub</Lang_he>
+    <Lang_zh>ESP32 BLE Tracker Hub</Lang_zh>
+    <Lang_ru>ESP32 BLE Tracker Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Binary Fan</Lang_Id>
+    <Lang_en>Binary Fan</Lang_en>
+    <Lang_fr>Binary Fan</Lang_fr>
+    <Lang_es>Binary Fan</Lang_es>
+    <Lang_de>Binary Fan</Lang_de>
+    <Lang_it>Binary Fan</Lang_it>
+    <Lang_he>Binary Fan</Lang_he>
+    <Lang_zh>Binary Fan</Lang_zh>
+    <Lang_ru>Binary Fan</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Fan</Lang_Id>
+    <Lang_en>Fan</Lang_en>
+    <Lang_fr>Fan</Lang_fr>
+    <Lang_es>Fan</Lang_es>
+    <Lang_de>Fan</Lang_de>
+    <Lang_it>Fan</Lang_it>
+    <Lang_he>Fan</Lang_he>
+    <Lang_zh>Fan</Lang_zh>
+    <Lang_ru>Fan</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Image</Lang_Id>
+    <Lang_en>Image</Lang_en>
+    <Lang_fr>Image</Lang_fr>
+    <Lang_es>Image</Lang_es>
+    <Lang_de>Image</Lang_de>
+    <Lang_it>Image</Lang_it>
+    <Lang_he>Image</Lang_he>
+    <Lang_zh>Image</Lang_zh>
+    <Lang_ru>Image</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Font</Lang_Id>
+    <Lang_en>Font</Lang_en>
+    <Lang_fr>Font</Lang_fr>
+    <Lang_es>Font</Lang_es>
+    <Lang_de>Font</Lang_de>
+    <Lang_it>Font</Lang_it>
+    <Lang_he>Font</Lang_he>
+    <Lang_zh>Font</Lang_zh>
+    <Lang_ru>Font</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>PCF8574 LCD Display</Lang_Id>
+    <Lang_en>PCF8574 LCD Display</Lang_en>
+    <Lang_fr>PCF8574 LCD Display</Lang_fr>
+    <Lang_es>PCF8574 LCD Display</Lang_es>
+    <Lang_de>PCF8574 LCD Display</Lang_de>
+    <Lang_it>PCF8574 LCD Display</Lang_it>
+    <Lang_he>PCF8574 LCD Display</Lang_he>
+    <Lang_zh>PCF8574 LCD Display</Lang_zh>
+    <Lang_ru>PCF8574 LCD Display</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>GPIO LCD Display</Lang_Id>
+    <Lang_en>GPIO LCD Display</Lang_en>
+    <Lang_fr>GPIO LCD Display</Lang_fr>
+    <Lang_es>GPIO LCD Display</Lang_es>
+    <Lang_de>GPIO LCD Display</Lang_de>
+    <Lang_it>GPIO LCD Display</Lang_it>
+    <Lang_he>GPIO LCD Display</Lang_he>
+    <Lang_zh>GPIO LCD Display</Lang_zh>
+    <Lang_ru>GPIO LCD Display</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SSD1306 OLED Display I2C</Lang_Id>
+    <Lang_en>SSD1306 OLED Display I2C</Lang_en>
+    <Lang_fr>SSD1306 OLED Display I2C</Lang_fr>
+    <Lang_es>SSD1306 OLED Display I2C</Lang_es>
+    <Lang_de>SSD1306 OLED Display I2C</Lang_de>
+    <Lang_it>SSD1306 OLED Display I2C</Lang_it>
+    <Lang_he>SSD1306 OLED Display I2C</Lang_he>
+    <Lang_zh>SSD1306 OLED Display I2C</Lang_zh>
+    <Lang_ru>SSD1306 OLED Display I2C</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SSD1306 OLED Display SPI</Lang_Id>
+    <Lang_en>SSD1306 OLED Display SPI</Lang_en>
+    <Lang_fr>SSD1306 OLED Display SPI</Lang_fr>
+    <Lang_es>SSD1306 OLED Display SPI</Lang_es>
+    <Lang_de>SSD1306 OLED Display SPI</Lang_de>
+    <Lang_it>SSD1306 OLED Display SPI</Lang_it>
+    <Lang_he>SSD1306 OLED Display SPI</Lang_he>
+    <Lang_zh>SSD1306 OLED Display SPI</Lang_zh>
+    <Lang_ru>SSD1306 OLED Display SPI</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MAX7219 7-Segment Display</Lang_Id>
+    <Lang_en>MAX7219 7-Segment Display</Lang_en>
+    <Lang_fr>MAX7219 7-Segment Display</Lang_fr>
+    <Lang_es>MAX7219 7-Segment Display</Lang_es>
+    <Lang_de>MAX7219 7-Segment Display</Lang_de>
+    <Lang_it>MAX7219 7-Segment Display</Lang_it>
+    <Lang_he>MAX7219 7-Segment Display</Lang_he>
+    <Lang_zh>MAX7219 7-Segment Display</Lang_zh>
+    <Lang_ru>MAX7219 7-Segment Display</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Nextion TFT LCD Display</Lang_Id>
+    <Lang_en>Nextion TFT LCD Display</Lang_en>
+    <Lang_fr>Nextion TFT LCD Display</Lang_fr>
+    <Lang_es>Nextion TFT LCD Display</Lang_es>
+    <Lang_de>Nextion TFT LCD Display</Lang_de>
+    <Lang_it>Nextion TFT LCD Display</Lang_it>
+    <Lang_he>Nextion TFT LCD Display</Lang_he>
+    <Lang_zh>Nextion TFT LCD Display</Lang_zh>
+    <Lang_ru>Nextion TFT LCD Display</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SSD1325 OLED Display SPI</Lang_Id>
+    <Lang_en>SSD1325 OLED Display SPI</Lang_en>
+    <Lang_fr>SSD1325 OLED Display SPI</Lang_fr>
+    <Lang_es>SSD1325 OLED Display SPI</Lang_es>
+    <Lang_de>SSD1325 OLED Display SPI</Lang_de>
+    <Lang_it>SSD1325 OLED Display SPI</Lang_it>
+    <Lang_he>SSD1325 OLED Display SPI</Lang_he>
+    <Lang_zh>SSD1325 OLED Display SPI</Lang_zh>
+    <Lang_ru>SSD1325 OLED Display SPI</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Waveshare E-Paper Display</Lang_Id>
+    <Lang_en>Waveshare E-Paper Display</Lang_en>
+    <Lang_fr>Waveshare E-Paper Display</Lang_fr>
+    <Lang_es>Waveshare E-Paper Display</Lang_es>
+    <Lang_de>Waveshare E-Paper Display</Lang_de>
+    <Lang_it>Waveshare E-Paper Display</Lang_it>
+    <Lang_he>Waveshare E-Paper Display</Lang_he>
+    <Lang_zh>Waveshare E-Paper Display</Lang_zh>
+    <Lang_ru>Waveshare E-Paper Display</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Template Cover</Lang_Id>
+    <Lang_en>Template Cover</Lang_en>
+    <Lang_fr>Template Cover</Lang_fr>
+    <Lang_es>Template Cover</Lang_es>
+    <Lang_de>Template Cover</Lang_de>
+    <Lang_it>Template Cover</Lang_it>
+    <Lang_he>Template Cover</Lang_he>
+    <Lang_zh>Template Cover</Lang_zh>
+    <Lang_ru>Template Cover</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Endstop Cover</Lang_Id>
+    <Lang_en>Endstop Cover</Lang_en>
+    <Lang_fr>Endstop Cover</Lang_fr>
+    <Lang_es>Endstop Cover</Lang_es>
+    <Lang_de>Endstop Cover</Lang_de>
+    <Lang_it>Endstop Cover</Lang_it>
+    <Lang_he>Endstop Cover</Lang_he>
+    <Lang_zh>Endstop Cover</Lang_zh>
+    <Lang_ru>Endstop Cover</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Time-Based Cover</Lang_Id>
+    <Lang_en>Time-Based Cover</Lang_en>
+    <Lang_fr>Time-Based Cover</Lang_fr>
+    <Lang_es>Time-Based Cover</Lang_es>
+    <Lang_de>Time-Based Cover</Lang_de>
+    <Lang_it>Time-Based Cover</Lang_it>
+    <Lang_he>Time-Based Cover</Lang_he>
+    <Lang_zh>Time-Based Cover</Lang_zh>
+    <Lang_ru>Time-Based Cover</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Cover</Lang_Id>
+    <Lang_en>Cover</Lang_en>
+    <Lang_fr>Cover</Lang_fr>
+    <Lang_es>Cover</Lang_es>
+    <Lang_de>Cover</Lang_de>
+    <Lang_it>Cover</Lang_it>
+    <Lang_he>Cover</Lang_he>
+    <Lang_zh>Cover</Lang_zh>
+    <Lang_ru>Cover</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoBinarySensorComponents</Lang_Id>
+    <Lang_en>There Are No Binary Sensor Components</Lang_en>
+    <Lang_fr>There Are No Binary Sensor Components</Lang_fr>
+    <Lang_es>There Are No Binary Sensor Components</Lang_es>
+    <Lang_de>There Are No Binary Sensor Components</Lang_de>
+    <Lang_it>There Are No Binary Sensor Components</Lang_it>
+    <Lang_he>There Are No Binary Sensor Components</Lang_he>
+    <Lang_zh>There Are No Binary Sensor Components</Lang_zh>
+    <Lang_ru>There Are No Binary Sensor Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Homeassistant Text Sensor</Lang_Id>
+    <Lang_en>Homeassistant Text Sensor</Lang_en>
+    <Lang_fr>Homeassistant Text Sensor</Lang_fr>
+    <Lang_es>Homeassistant Text Sensor</Lang_es>
+    <Lang_de>Homeassistant Text Sensor</Lang_de>
+    <Lang_it>Homeassistant Text Sensor</Lang_it>
+    <Lang_he>Homeassistant Text Sensor</Lang_he>
+    <Lang_zh>Homeassistant Text Sensor</Lang_zh>
+    <Lang_ru>Homeassistant Text Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Text</Lang_Id>
+    <Lang_en>Text Sensor</Lang_en>
+    <Lang_fr>Text Sensor</Lang_fr>
+    <Lang_es>Text Sensor</Lang_es>
+    <Lang_de>Text Sensor</Lang_de>
+    <Lang_it>Text Sensor</Lang_it>
+    <Lang_he>Text Sensor</Lang_he>
+    <Lang_zh>Text Sensor</Lang_zh>
+    <Lang_ru>Text Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MQTT Subscribe Text Sensor</Lang_Id>
+    <Lang_en>MQTT Subscribe Text Sensor</Lang_en>
+    <Lang_fr>MQTT Subscribe Text Sensor</Lang_fr>
+    <Lang_es>MQTT Subscribe Text Sensor</Lang_es>
+    <Lang_de>MQTT Subscribe Text Sensor</Lang_de>
+    <Lang_it>MQTT Subscribe Text Sensor</Lang_it>
+    <Lang_he>MQTT Subscribe Text Sensor</Lang_he>
+    <Lang_zh>MQTT Subscribe Text Sensor</Lang_zh>
+    <Lang_ru>MQTT Subscribe Text Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Version Text Sensor</Lang_Id>
+    <Lang_en>Version Text Sensor</Lang_en>
+    <Lang_fr>Version Text Sensor</Lang_fr>
+    <Lang_es>Version Text Sensor</Lang_es>
+    <Lang_de>Version Text Sensor</Lang_de>
+    <Lang_it>Version Text Sensor</Lang_it>
+    <Lang_he>Version Text Sensor</Lang_he>
+    <Lang_zh>Version Text Sensor</Lang_zh>
+    <Lang_ru>Version Text Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>WiFi Info Text Sensor</Lang_Id>
+    <Lang_en>WiFi Info Text Sensor</Lang_en>
+    <Lang_fr>WiFi Info Text Sensor</Lang_fr>
+    <Lang_es>WiFi Info Text Sensor</Lang_es>
+    <Lang_de>WiFi Info Text Sensor</Lang_de>
+    <Lang_it>WiFi Info Text Sensor</Lang_it>
+    <Lang_he>WiFi Info Text Sensor</Lang_he>
+    <Lang_zh>WiFi Info Text Sensor</Lang_zh>
+    <Lang_ru>WiFi Info Text Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Template Text Sensor</Lang_Id>
+    <Lang_en>Template Text Sensor</Lang_en>
+    <Lang_fr>Template Text Sensor</Lang_fr>
+    <Lang_es>Template Text Sensor</Lang_es>
+    <Lang_de>Template Text Sensor</Lang_de>
+    <Lang_it>Template Text Sensor</Lang_it>
+    <Lang_he>Template Text Sensor</Lang_he>
+    <Lang_zh>Template Text Sensor</Lang_zh>
+    <Lang_ru>Template Text Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Bang Bang Climate Controller</Lang_Id>
+    <Lang_en>Bang Bang Climate Controller</Lang_en>
+    <Lang_fr>Bang Bang Climate Controller</Lang_fr>
+    <Lang_es>Bang Bang Climate Controller</Lang_es>
+    <Lang_de>Bang Bang Climate Controller</Lang_de>
+    <Lang_it>Bang Bang Climate Controller</Lang_it>
+    <Lang_he>Bang Bang Climate Controller</Lang_he>
+    <Lang_zh>Bang Bang Climate Controller</Lang_zh>
+    <Lang_ru>Bang Bang Climate Controller</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Coolix IR Remote Climate</Lang_Id>
+    <Lang_en>Coolix IR Remote Climate</Lang_en>
+    <Lang_fr>Coolix IR Remote Climate</Lang_fr>
+    <Lang_es>Coolix IR Remote Climate</Lang_es>
+    <Lang_de>Coolix IR Remote Climate</Lang_de>
+    <Lang_it>Coolix IR Remote Climate</Lang_it>
+    <Lang_he>Coolix IR Remote Climate</Lang_he>
+    <Lang_zh>Coolix IR Remote Climate</Lang_zh>
+    <Lang_ru>Coolix IR Remote Climate</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Tcl112 Remote Climate</Lang_Id>
+    <Lang_en>Tcl112 Remote Climate</Lang_en>
+    <Lang_fr>Tcl112 Remote Climate</Lang_fr>
+    <Lang_es>Tcl112 Remote Climate</Lang_es>
+    <Lang_de>Tcl112 Remote Climate</Lang_de>
+    <Lang_it>Tcl112 Remote Climate</Lang_it>
+    <Lang_he>Tcl112 Remote Climate</Lang_he>
+    <Lang_zh>Tcl112 Remote Climate</Lang_zh>
+    <Lang_ru>Tcl112 Remote Climate</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Yashima Remote Climate</Lang_Id>
+    <Lang_en>Yashima Remote Climate</Lang_en>
+    <Lang_fr>Yashima Remote Climate</Lang_fr>
+    <Lang_es>Yashima Remote Climate</Lang_es>
+    <Lang_de>Yashima Remote Climate</Lang_de>
+    <Lang_it>Yashima Remote Climate</Lang_it>
+    <Lang_he>Yashima Remote Climate</Lang_he>
+    <Lang_zh>Yashima Remote Climate</Lang_zh>
+    <Lang_ru>Yashima Remote Climate</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Climate</Lang_Id>
+    <Lang_en>Climate</Lang_en>
+    <Lang_fr>Climate</Lang_fr>
+    <Lang_es>Climate</Lang_es>
+    <Lang_de>Climate</Lang_de>
+    <Lang_it>Climate</Lang_it>
+    <Lang_he>Climate</Lang_he>
+    <Lang_zh>Climate</Lang_zh>
+    <Lang_ru>Climate</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Bang Bang Climate Controller</Lang_Id>
+    <Lang_en>Bang Bang Climate Controller</Lang_en>
+    <Lang_fr>Bang Bang Climate Controller</Lang_fr>
+    <Lang_es>Bang Bang Climate Controller</Lang_es>
+    <Lang_de>Bang Bang Climate Controller</Lang_de>
+    <Lang_it>Bang Bang Climate Controller</Lang_it>
+    <Lang_he>Bang Bang Climate Controller</Lang_he>
+    <Lang_zh>Bang Bang Climate Controller</Lang_zh>
+    <Lang_ru>Bang Bang Climate Controller</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Coolix IR Remote Climate</Lang_Id>
+    <Lang_en>Coolix IR Remote Climate</Lang_en>
+    <Lang_fr>Coolix IR Remote Climate</Lang_fr>
+    <Lang_es>Coolix IR Remote Climate</Lang_es>
+    <Lang_de>Coolix IR Remote Climate</Lang_de>
+    <Lang_it>Coolix IR Remote Climate</Lang_it>
+    <Lang_he>Coolix IR Remote Climate</Lang_he>
+    <Lang_zh>Coolix IR Remote Climate</Lang_zh>
+    <Lang_ru>Coolix IR Remote Climate</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Tcl112 Remote Climate</Lang_Id>
+    <Lang_en>Tcl112 Remote Climate</Lang_en>
+    <Lang_fr>Tcl112 Remote Climate</Lang_fr>
+    <Lang_es>Tcl112 Remote Climate</Lang_es>
+    <Lang_de>Tcl112 Remote Climate</Lang_de>
+    <Lang_it>Tcl112 Remote Climate</Lang_it>
+    <Lang_he>Tcl112 Remote Climate</Lang_he>
+    <Lang_zh>Tcl112 Remote Climate</Lang_zh>
+    <Lang_ru>Tcl112 Remote Climate</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Yashima Remote Climate</Lang_Id>
+    <Lang_en>Yashima Remote Climate</Lang_en>
+    <Lang_fr>Yashima Remote Climate</Lang_fr>
+    <Lang_es>Yashima Remote Climate</Lang_es>
+    <Lang_de>Yashima Remote Climate</Lang_de>
+    <Lang_it>Yashima Remote Climate</Lang_it>
+    <Lang_he>Yashima Remote Climate</Lang_he>
+    <Lang_zh>Yashima Remote Climate</Lang_zh>
+    <Lang_ru>Yashima Remote Climate</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Remote Receiver Hub</Lang_Id>
+    <Lang_en>Remote Receiver Hub</Lang_en>
+    <Lang_fr>Remote Receiver Hub</Lang_fr>
+    <Lang_es>Remote Receiver Hub</Lang_es>
+    <Lang_de>Remote Receiver</Lang_de>
+    <Lang_it>Remote Receiver Hub</Lang_it>
+    <Lang_he>Remote Receiver Hub</Lang_he>
+    <Lang_zh>Remote Receiver Hub</Lang_zh>
+    <Lang_ru>Remote Receiver Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Misc</Lang_Id>
+    <Lang_en>Misc</Lang_en>
+    <Lang_fr>Misc</Lang_fr>
+    <Lang_es>Misc</Lang_es>
+    <Lang_de>Misc</Lang_de>
+    <Lang_it>Misc</Lang_it>
+    <Lang_he>Misc</Lang_he>
+    <Lang_zh>Misc</Lang_zh>
+    <Lang_ru>Misc</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoPCF8574Components</Lang_Id>
+    <Lang_en>There Are No PCF8574 Components</Lang_en>
+    <Lang_fr>There Are No PCF8574 Components</Lang_fr>
+    <Lang_es>There Are No PCF8574 Components</Lang_es>
+    <Lang_de>There Are No PCF8574 Components</Lang_de>
+    <Lang_it>There Are No PCF8574 Components</Lang_it>
+    <Lang_he>There Are No PCF8574 Components</Lang_he>
+    <Lang_zh>There Are No PCF8574 Components</Lang_zh>
+    <Lang_ru>There Are No PCF8574 Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Remote Receiver Binary Sensor</Lang_Id>
+    <Lang_en>Remote Receiver Binary Sensor</Lang_en>
+    <Lang_fr>Remote Receiver Binary Sensor</Lang_fr>
+    <Lang_es>Remote Receiver Binary Sensor</Lang_es>
+    <Lang_de>Remote Receiver Binary Sensor</Lang_de>
+    <Lang_it>Remote Receiver Binary Sensor</Lang_it>
+    <Lang_he>Remote Receiver Binary Sensor</Lang_he>
+    <Lang_zh>Remote Receiver Binary Sensor</Lang_zh>
+    <Lang_ru>Remote Receiver Binary Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Remote Transmitter Hub</Lang_Id>
+    <Lang_en>Remote Transmitter Hub</Lang_en>
+    <Lang_fr>Remote Transmitter Hub</Lang_fr>
+    <Lang_es>Remote Transmitter Hub</Lang_es>
+    <Lang_de>Remote Transmitter</Lang_de>
+    <Lang_it>Remote Transmitter Hub</Lang_it>
+    <Lang_he>Remote Transmitter Hub</Lang_he>
+    <Lang_zh>Remote Transmitter Hub</Lang_zh>
+    <Lang_ru>Remote Transmitter Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Remote Transmitter Switch</Lang_Id>
+    <Lang_en>Remote Transmitter Switch</Lang_en>
+    <Lang_fr>Remote Transmitter Switch</Lang_fr>
+    <Lang_es>Remote Transmitter Switch</Lang_es>
+    <Lang_de>Remote Transmitter Switch</Lang_de>
+    <Lang_it>Remote Transmitter Switch</Lang_it>
+    <Lang_he>Remote Transmitter Switch</Lang_he>
+    <Lang_zh>Remote Transmitter Switch</Lang_zh>
+    <Lang_ru>Remote Transmitter Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Status LED</Lang_Id>
+    <Lang_en>Status LED</Lang_en>
+    <Lang_fr>Status LED</Lang_fr>
+    <Lang_es>Status LED</Lang_es>
+    <Lang_de>Status LED</Lang_de>
+    <Lang_it>Status LED</Lang_it>
+    <Lang_he>Status LED</Lang_he>
+    <Lang_zh>Status LED</Lang_zh>
+    <Lang_ru>Status LED</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Time</Lang_Id>
+    <Lang_en>Time</Lang_en>
+    <Lang_fr>Cover</Lang_fr>
+    <Lang_es>Time</Lang_es>
+    <Lang_de>Time</Lang_de>
+    <Lang_it>Time</Lang_it>
+    <Lang_he>Time</Lang_he>
+    <Lang_zh>Time</Lang_zh>
+    <Lang_ru>Time</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Sun</Lang_Id>
+    <Lang_en>Sun</Lang_en>
+    <Lang_fr>Sun</Lang_fr>
+    <Lang_es>Sun</Lang_es>
+    <Lang_de>Sun</Lang_de>
+    <Lang_it>Sun</Lang_it>
+    <Lang_he>Sun</Lang_he>
+    <Lang_zh>Sun</Lang_zh>
+    <Lang_ru>Sun</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Sun Sensor</Lang_Id>
+    <Lang_en>Sun Sensor</Lang_en>
+    <Lang_fr>Sun Sensor</Lang_fr>
+    <Lang_es>Sun Sensor</Lang_es>
+    <Lang_de>Sun Sensor</Lang_de>
+    <Lang_it>Sun Sensor</Lang_it>
+    <Lang_he>Sun Sensor</Lang_he>
+    <Lang_zh>Sun Sensor</Lang_zh>
+    <Lang_ru>Sun Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 BE Beacon</Lang_Id>
+    <Lang_en>ESP32 BE Beacon</Lang_en>
+    <Lang_fr>ESP32 BE Beacon</Lang_fr>
+    <Lang_es>ESP32 BE Beacon</Lang_es>
+    <Lang_de>ESP32 BE Beacon</Lang_de>
+    <Lang_it>ESP32 BE Beacon</Lang_it>
+    <Lang_he>ESP32 BE Beacon</Lang_he>
+    <Lang_zh>ESP32 BE Beacon</Lang_zh>
+    <Lang_ru>ESP32 BE Beacon</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 Ethernet</Lang_Id>
+    <Lang_en>ESP32 Ethernet</Lang_en>
+    <Lang_fr>ESP32 Ethernet</Lang_fr>
+    <Lang_es>ESP32 Ethernet</Lang_es>
+    <Lang_de>ESP32 Ethernet</Lang_de>
+    <Lang_it>ESP32 Ethernet</Lang_it>
+    <Lang_he>ESP32 Ethernet</Lang_he>
+    <Lang_zh>ESP32 Ethernet</Lang_zh>
+    <Lang_ru>ESP32 Ethernet</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ESP32 Camera</Lang_Id>
+    <Lang_en>ESP32 Camera</Lang_en>
+    <Lang_fr>ESP32 Camera</Lang_fr>
+    <Lang_es>ESP32 Camera</Lang_es>
+    <Lang_de>ESP32 Camera</Lang_de>
+    <Lang_it>ESP32 Camera</Lang_it>
+    <Lang_he>ESP32 Camera</Lang_he>
+    <Lang_zh>ESP32 Camera</Lang_zh>
+    <Lang_ru>ESP32 Camera</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>A4988 Stepper</Lang_Id>
+    <Lang_en>A4988 Stepper</Lang_en>
+    <Lang_fr>A4988 Stepper</Lang_fr>
+    <Lang_es>A4988 Stepper</Lang_es>
+    <Lang_de>A4988 Stepper</Lang_de>
+    <Lang_it>A4988 Stepper</Lang_it>
+    <Lang_he>A4988 Stepper</Lang_he>
+    <Lang_zh>A4988 Stepper</Lang_zh>
+    <Lang_ru>A4988 Stepper</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ULN2003 Stepper</Lang_Id>
+    <Lang_en>ULN2003 Stepper</Lang_en>
+    <Lang_fr>ULN2003 Stepper</Lang_fr>
+    <Lang_es>ULN2003 Stepper</Lang_es>
+    <Lang_de>ULN2003 Stepper</Lang_de>
+    <Lang_it>ULN2003 Stepper</Lang_it>
+    <Lang_he>ULN2003 Stepper</Lang_he>
+    <Lang_zh>ULN2003 Stepper</Lang_zh>
+    <Lang_ru>ULN2003 Stepper</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Servo Motor</Lang_Id>
+    <Lang_en>Servo Motor</Lang_en>
+    <Lang_fr>Servo Motor</Lang_fr>
+    <Lang_es>Servo Motor</Lang_es>
+    <Lang_de>Servo Motor</Lang_de>
+    <Lang_it>Servo Motor</Lang_it>
+    <Lang_he>Servo Motor</Lang_he>
+    <Lang_zh>Servo Motor</Lang_zh>
+    <Lang_ru>Servo Motor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>PCF8574 I/O Expander Hub</Lang_Id>
+    <Lang_en>PCF8574 I/O Expander Hub</Lang_en>
+    <Lang_fr>PCF8574 I/O Expander Hub</Lang_fr>
+    <Lang_es>PCF8574 I/O Expander Hub</Lang_es>
+    <Lang_de>PCF8574 I/O Expander Hub</Lang_de>
+    <Lang_it>PCF8574 I/O Expander Hub</Lang_it>
+    <Lang_he>PCF8574 I/O Expander Hub</Lang_he>
+    <Lang_zh>PCF8574 I/O Expander Hub</Lang_zh>
+    <Lang_ru>PCF8574 I/O Expander Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>PCF8574 Expander Switch</Lang_Id>
+    <Lang_en>PCF8574 Expander Switch</Lang_en>
+    <Lang_fr>PCF8574 Expander Switch</Lang_fr>
+    <Lang_es>PCF8574 Expander Switch</Lang_es>
+    <Lang_de>PCF8574 Expander Switch</Lang_de>
+    <Lang_it>PCF8574 Expander Switch</Lang_it>
+    <Lang_he>PCF8574 Expander Switch</Lang_he>
+    <Lang_zh>PCF8574 Expander Switch</Lang_zh>
+    <Lang_ru>PCF8574 Expander Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MCP23017 I/O Expander Hub</Lang_Id>
+    <Lang_en>MCP23017 I/O Expander Hub</Lang_en>
+    <Lang_fr>MCP23017 I/O Expander Hub</Lang_fr>
+    <Lang_es>MCP23017 I/O Expander Hub</Lang_es>
+    <Lang_de>MCP23017 I/O Expander Hub</Lang_de>
+    <Lang_it>MCP23017 I/O Expander Hub</Lang_it>
+    <Lang_he>MCP23017 I/O Expander Hub</Lang_he>
+    <Lang_zh>MCP23017 I/O Expander Hub</Lang_zh>
+    <Lang_ru>MCP23017 I/O Expander Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MCP23008 I/O Expander Hub</Lang_Id>
+    <Lang_en>MCP23008 I/O Expander Hub</Lang_en>
+    <Lang_fr>MCP23008 I/O Expander Hub</Lang_fr>
+    <Lang_es>MCP23008 I/O Expander Hub</Lang_es>
+    <Lang_de>MCP23008 I/O Expander Hub</Lang_de>
+    <Lang_it>MCP23008 I/O Expander Hub</Lang_it>
+    <Lang_he>MCP23008 I/O Expander Hub</Lang_he>
+    <Lang_zh>MCP23008 I/O Expander Hub</Lang_zh>
+    <Lang_ru>MCP23008 I/O Expander Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MCP23008 Expander Switch</Lang_Id>
+    <Lang_en>MCP23008 Expander Switch</Lang_en>
+    <Lang_fr>MCP23008 Expander Switch</Lang_fr>
+    <Lang_es>MCP23008 Expander Switch</Lang_es>
+    <Lang_de>MCP23008 Expander Switch</Lang_de>
+    <Lang_it>MCP23008 Expander Switch</Lang_it>
+    <Lang_he>MCP23008 Expander Switch</Lang_he>
+    <Lang_zh>MCP23008 Expander Switch</Lang_zh>
+    <Lang_ru>MCP23008 Expander Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>MCP23017 Expander Switch</Lang_Id>
+    <Lang_en>MCP23017 Expander Switch</Lang_en>
+    <Lang_fr>MCP23017 Expander Switch</Lang_fr>
+    <Lang_es>MCP23017 Expander Switch</Lang_es>
+    <Lang_de>MCP23017 Expander Switch</Lang_de>
+    <Lang_it>Sun</Lang_it>
+    <Lang_he>MCP23017 Expander Switch</Lang_he>
+    <Lang_zh>MCP23017 Expander Switch</Lang_zh>
+    <Lang_ru>MCP23017 Expander Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoMPC23017Components</Lang_Id>
+    <Lang_en>There Are No MPC23017 Components</Lang_en>
+    <Lang_fr>There Are No MPC23017 Components</Lang_fr>
+    <Lang_es>There Are No MPC23017 Components</Lang_es>
+    <Lang_de>There Are No MPC23017 Components</Lang_de>
+    <Lang_it>There Are No MPC23017 Components</Lang_it>
+    <Lang_he>There Are No MPC23017 Components</Lang_he>
+    <Lang_zh>There Are No MPC23017 Components</Lang_zh>
+    <Lang_ru>There Are No MPC23017 Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoMPC23008Components</Lang_Id>
+    <Lang_en>There Are No MPC23008 Components</Lang_en>
+    <Lang_fr>There Are No MPC23008 Components</Lang_fr>
+    <Lang_es>There Are No MPC23008 Components</Lang_es>
+    <Lang_de>There Are No MPC23008 Components</Lang_de>
+    <Lang_it>There Are No MPC23008 Components</Lang_it>
+    <Lang_he>There Are No MPC23008 Components</Lang_he>
+    <Lang_zh>There Are No MPC23008 Components</Lang_zh>
+    <Lang_ru>There Are No MPC23008 Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SX1509 16 channel I/O Expander Hub</Lang_Id>
+    <Lang_en>SX1509 16 channel I/O Expander Hub</Lang_en>
+    <Lang_fr>SX1509 16 channel I/O Expander Hub</Lang_fr>
+    <Lang_es>SX1509 16 channel I/O Expander Hub</Lang_es>
+    <Lang_de>SX1509 16 channel I/O Expander Hub</Lang_de>
+    <Lang_it>SX1509 16 channel I/O Expander Hub</Lang_it>
+    <Lang_he>SX1509 16 channel I/O Expander Hub</Lang_he>
+    <Lang_zh>SX1509 16 channel I/O Expander Hub</Lang_zh>
+    <Lang_ru>SX1509 16 channel I/O Expander Hub</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SX1509 Keypad Binary Sensor</Lang_Id>
+    <Lang_en>SX1509 Keypad Binary Sensor</Lang_en>
+    <Lang_fr>SX1509 Keypad Binary Sensor</Lang_fr>
+    <Lang_es>SX1509 Keypad Binary Sensor</Lang_es>
+    <Lang_de>SX1509 Keypad Binary Sensor</Lang_de>
+    <Lang_it>SX1509 Keypad Binary Sensor</Lang_it>
+    <Lang_he>SX1509 Keypad Binary Sensor</Lang_he>
+    <Lang_zh>SX1509 Keypad Binary Sensor</Lang_zh>
+    <Lang_ru>SX1509 Keypad Binary Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SX1509 Binary Sensor</Lang_Id>
+    <Lang_en>SX1509 Binary Sensor</Lang_en>
+    <Lang_fr>SX1509 Binary Sensor</Lang_fr>
+    <Lang_es>SX1509 Binary Sensor</Lang_es>
+    <Lang_de>SX1509 Binary Sensor</Lang_de>
+    <Lang_it>SX1509 Binary Sensor</Lang_it>
+    <Lang_he>SX1509 Binary Sensor</Lang_he>
+    <Lang_zh>SX1509 Binary Sensor</Lang_zh>
+    <Lang_ru>SX1509 Binary Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SX1509 Output</Lang_Id>
+    <Lang_en>SX1509 Output</Lang_en>
+    <Lang_fr>SX1509 Output</Lang_fr>
+    <Lang_es>SX1509 Output</Lang_es>
+    <Lang_de>SX1509 Output</Lang_de>
+    <Lang_it>SX1509 Output</Lang_it>
+    <Lang_he>SX1509 Output</Lang_he>
+    <Lang_zh>SX1509 Output</Lang_zh>
+    <Lang_ru>SX1509 Output</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>SX1509 Switch</Lang_Id>
+    <Lang_en>SX1509 Switch</Lang_en>
+    <Lang_fr>SX1509 Switch</Lang_fr>
+    <Lang_es>SX1509 Switch</Lang_es>
+    <Lang_de>SX1509 Switch</Lang_de>
+    <Lang_it>SX1509 Switch</Lang_it>
+    <Lang_he>SX1509 Switch</Lang_he>
+    <Lang_zh>SX1509 Switch</Lang_zh>
+    <Lang_ru>SX1509 Switch</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoSX1509Components</Lang_Id>
+    <Lang_en>There Are No SX1509 Components</Lang_en>
+    <Lang_fr>There Are No SX1509 Components</Lang_fr>
+    <Lang_es>There Are No SX1509 Components</Lang_es>
+    <Lang_de>There Are No SX1509 Components</Lang_de>
+    <Lang_it>There Are No SX1509 Components</Lang_it>
+    <Lang_he>There Are No SX1509 Components</Lang_he>
+    <Lang_zh>There Are No SX1509 Components</Lang_zh>
+    <Lang_ru>There Are No SX1509 Components</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Sim800L GSM GPRS</Lang_Id>
+    <Lang_en>Sim800L GSM GPRS</Lang_en>
+    <Lang_fr>Sim800L GSM GPRS</Lang_fr>
+    <Lang_es>Sim800L GSM GPRS</Lang_es>
+    <Lang_de>Sim800L GSM GPRS</Lang_de>
+    <Lang_it>Sim800L GSM GPRS</Lang_it>
+    <Lang_he>Sim800L GSM GPRS</Lang_he>
+    <Lang_zh>Sim800L GSM GPRS</Lang_zh>
+    <Lang_ru>Sim800L GSM GPRS</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>DF-Player mini</Lang_Id>
+    <Lang_en>DF-Player mini</Lang_en>
+    <Lang_fr>DF-Player mini</Lang_fr>
+    <Lang_es>DF-Player mini</Lang_es>
+    <Lang_de>DF-Player mini</Lang_de>
+    <Lang_it>DF-Player mini</Lang_it>
+    <Lang_he>DF-Player mini</Lang_he>
+    <Lang_zh>DF-Player mini</Lang_zh>
+    <Lang_ru>DF-Player mini</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Passive Infrared Sensor</Lang_Id>
+    <Lang_en>Passive Infrared Sensor</Lang_en>
+    <Lang_fr>Passive Infrared Sensor</Lang_fr>
+    <Lang_es>Passive Infrared Sensor</Lang_es>
+    <Lang_de>Passive Infrared Sensor</Lang_de>
+    <Lang_it>Passive Infrared Sensor</Lang_it>
+    <Lang_he>Passive Infrared Sensor</Lang_he>
+    <Lang_zh>Passive Infrared Sensor</Lang_zh>
+    <Lang_ru>Passive Infrared Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>filters</Lang_Id>
+    <Lang_en>filters</Lang_en>
+    <Lang_fr>filters</Lang_fr>
+    <Lang_es>filters</Lang_es>
+    <Lang_de>filters</Lang_de>
+    <Lang_it>filters</Lang_it>
+    <Lang_he>filters</Lang_he>
+    <Lang_zh>filters</Lang_zh>
+    <Lang_ru>filters</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>Sun Text Sensor</Lang_Id>
+    <Lang_en>Sun Text Sensor</Lang_en>
+    <Lang_fr>Sun Text Sensor</Lang_fr>
+    <Lang_es>Sun Text Sensor</Lang_es>
+    <Lang_de>Sun Text Sensor</Lang_de>
+    <Lang_it>Sun Text Sensor</Lang_it>
+    <Lang_he>Sun Text Sensor</Lang_he>
+    <Lang_zh>Sun Text Sensor</Lang_zh>
+    <Lang_ru>Sun Text Sensor</Lang_ru>
+  </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoPCA9685HubComponents</Lang_Id>
+    <Lang_en>There Are No PCA9685 Hub Components</Lang_en>
+    <Lang_fr>There Are No PCA9685 Hub Components</Lang_fr>
+    <Lang_es>There Are No PCA9685 Hub Components</Lang_es>
+    <Lang_de>There Are No PCA9685 Hub Components</Lang_de>
+    <Lang_it>There Are No PCA9685 Hub Components</Lang_it>
+    <Lang_he>There Are No PCA9685 Hub Components</Lang_he>
+    <Lang_zh>There Are No PCA9685 Hub Components</Lang_zh>
+    <Lang_ru>There Are No PCA9685 Hub Components</Lang_ru>
+  </Main_Table>
+</ESPHOMEYamlLanguageDataset>

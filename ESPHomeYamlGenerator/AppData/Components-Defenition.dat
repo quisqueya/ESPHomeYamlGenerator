@@ -1,0 +1,5446 @@
+[Passive Infrared Sensor]
+image=image-pir.png
+thumbnail=node-pir.png
+class= binary_pir
+filter=binary_sensor
+displaykey=name
+
+<- platform>
+type=text
+default= gpio
+required=yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<device_class>
+type=text
+default=motion
+display=hidden
+required=yes
+
+<pin>
+type=embeddable
+class=Pin Schema
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+
+[DF-Player mini]
+main-heading= dfplayer:
+image=image-dfplayer.png
+thumbnail=node-dfplayer.png
+class=dfplayer
+filter=misc
+required-component=uart
+
+<uart_id>
+type=built-in-list
+class=uart
+
+<id>
+type=text
+
+<on_finished_playback>
+type=automation
+
+
+[Sim800L GSM GPRS]
+main-heading= sim800l:
+image=image-sim800l.png
+image-disabled=image-sim800l-dis.png
+thumbnail=node-sim800l.png
+class=sim800l
+filter=misc
+required-component=uart
+repeatable=no
+
+<uart_id>
+type=built-in-list
+class=uart
+
+<id>
+type=text
+
+<on_sms_received>
+type=automation
+
+
+[SX1509 Switch]
+image=image-sx1509.png
+thumbnail=node-sx1509.png
+class= switch_sx1509
+filter=switch
+required-component=sx1509
+displaykey=name
+
+<- platform>
+type=text
+default= gpio
+required=yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<pin>
+type=embeddable
+class=Pin Schema SX1509
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+
+[SX1509 Output]
+image=image-sx1509.png
+thumbnail=node-sx1509.png
+class= output_sx1509
+filter=output
+required-component=sx1509
+
+<- platform>
+type=text
+default=sx1509
+required= yes
+display=hidden
+
+<sx1509_id>
+type=built-in-list
+class= sx1509
+indent=1
+
+<id>
+type=text
+required=yes
+
+<pin>
+type=picklist
+picklist=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+default=0
+required= yes
+
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Output
+
+
+[SX1509 Binary Sensor]
+image=image-sx1509.png
+thumbnail=node-sx1509.png
+class= binary_sx1509
+filter=binary_sensor
+required-component=sx1509
+displaykey=name
+
+<- platform>
+type=text
+default= gpio
+required=yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<pin>
+type=embeddable
+class=Pin Schema SX1509
+required=yes
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+
+
+[Pin Schema SX1509]
+class=embeddable
+
+<sx1509>
+type=built-in-list
+class=sx1509
+required=yes
+
+<number>
+type=picklist
+picklist=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+default=0
+required=yes
+
+<inverted>
+type=boolean
+default=false
+
+<mode>
+type=picklist
+picklist=;INPUT; INPUT_PULLUP; OUTPUT
+default=OUTPUT
+required=yes
+
+
+[SX1509 Keypad Binary Sensor]
+image=image-sx1509-keypad.png
+thumbnail=node-sx1509-keypad.png
+class= keypad_sx1509
+filter=binary_sensor
+required-component=sx1509
+displaykey=name
+
+<- platform>
+type=text
+default= sx1509
+required=yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<sx1509_id>
+type=built-in-list
+class=sx1509
+
+<row>
+type=picklist
+picklist=0;1;2;3;4;5;6;7
+default=0
+
+<col>
+type=picklist
+picklist=0;1;2;3;4;5;6;7
+default=0
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+
+[SX1509 16 channel I/O Expander Hub]
+main-heading= sx1509:
+image=image-sx1509.png
+thumbnail=node-sx1509.png
+class=sx1509
+filter=hub
+displaykey=- id
+
+<- id>
+type=text
+required=yes
+
+<address>
+type=text
+default=0x3E
+
+<keypad>
+type=multifields
+
+<keypad_1>
+field=key_row
+type=picklist
+picklist=;1;2;3;4;5;6;7;8
+
+<keypad_2>
+field=key_columns
+type=picklist
+picklist=;1;2;3;4;5;6;7;8
+
+<keypad_3>
+field=sleep_time
+type=text
+
+<keypad_4>
+field=scan_time
+type=text
+
+<keypad_5>
+field=debounce_time
+type=text
+
+[MCP23017 Expander Switch]
+image=image-mpc23017.png
+thumbnail=node-mpc23017.png
+class=switch_mpc23017
+filter=switch
+required-component=mpc23017
+displaykey=name
+
+<- platform>
+type=text
+default=gpio
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<pin>
+type=embeddable
+class=Pin Schema MCP23017
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+[MCP23008 Expander Switch]
+image=image-mcp23008.png
+thumbnail=node-mcp23008.png
+class=switch_mcp23008
+filter=switch
+required-component=mcp23008
+displaykey=name
+
+<- platform>
+type=text
+default=gpio
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<pin>
+type=embeddable
+class=Pin Schema MCP23008
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+
+[MCP23008 I/O Expander Hub]
+main-heading= mcp23008:
+image=image-mcp23008.png
+thumbnail=node-mcp23008.png
+class=mcp23008
+filter=hub
+displaykey=- id
+
+<- id>
+type=text
+required=yes
+
+<address>
+type=text
+default=0x21
+indent=1
+
+[MCP23017 I/O Expander Hub]
+main-heading= mcp23017:
+image=image-mpc23017.png
+thumbnail=node-mpc23017.png
+class=mpc23017
+filter=hub
+displaykey=- id
+
+<- id>
+type=text
+required=yes
+
+<address>
+type=text
+default=0x21
+indent=1
+
+[Pin Schema MCP23008]
+class=embeddable
+
+<mcp23008>
+type=built-in-list
+class=mcp23008
+required=yes
+
+<number>
+type=picklist
+picklist=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+default=0
+required=yes
+
+<inverted>
+type=boolean
+default=false
+
+<mode>
+type=picklist
+picklist=;INPUT; INPUT_PULLUP; OUTPUT
+default=OUTPUT
+required=yes
+
+[Pin Schema MCP23017]
+class=embeddable
+
+<mpc23017>
+type=built-in-list
+class=mpc23017
+required=yes
+
+<number>
+type=picklist
+picklist=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+default=0
+required=yes
+
+<inverted>
+type=boolean
+default=false
+
+<mode>
+type=picklist
+picklist=;INPUT; INPUT_PULLUP; OUTPUT
+default=OUTPUT
+required=yes
+
+[PCF8574 Expander Switch]
+image=image-pcf8574-expander.png
+thumbnail=node-pcf8574-expander.png
+class=switch_pcf8574
+filter=switch
+required-component=pcf8574
+displaykey=name
+
+<- platform>
+type=text
+default=gpio
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<pin>
+type=embeddable
+class=Pin Schema PCF8574
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+
+[PCF8574 I/O Expander Hub]
+main-heading= pcf8574:
+image=image-pcf8574-expander.png
+thumbnail=node-pcf8574-expander.png
+class=pcf8574
+filter=hub
+displaykey=- id
+
+<- id>
+type=text
+required=yes
+
+<address>
+type=text
+default=0x21
+indent=1
+
+<pcf8575>
+type=boolean
+default=false
+
+
+[Pin Schema PCF8574]
+class=embeddable
+
+<pcf8574>
+type=built-in-list
+class=pcf8574
+required=yes
+
+<number>
+type=picklist
+picklist=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+default=0
+
+<inverted>
+type=boolean
+default=false
+
+<mode>
+type=picklist
+picklist=;INPUT; INPUT_PULLUP; OUTPUT
+default=OUTPUT
+required=yes
+
+[Servo Motor]
+main-heading= servo:
+image=image-servo.png
+thumbnail=node-servo.png
+class=servo
+filter=misc
+displaykey=- id
+
+<- id>
+type=text
+required= yes
+
+
+<output>
+type=filter-list
+class=output
+required= yes
+indent=1
+
+<min_level>
+type=text
+default=3%
+
+<idle_level>
+type=text
+default=7.5%
+
+<max_level>
+type=text
+default=12.0%
+
+<restore>
+type=boolean
+default=false
+
+
+[ULN2003 Stepper]
+main-heading= stepper:
+image=image-uln2003-stepper.png
+thumbnail=node-uln2003-stepper.png
+class=stepper
+filter=misc
+
+
+<- platform>
+type=text
+default=uln2003
+required= yes
+display=hidden
+
+# indent will indent all field for this component from this point on
+# indent=0 (default) 3 spaces, indent=1 6 spaces and so on
+<id>
+type=text
+required=yes
+indent=1
+
+<pin_a>
+type=embeddable
+class=Pin Schema
+default=GPIO16
+required=yes
+
+<pin_b>
+type=embeddable
+class=Pin Schema
+default=GPIO05
+required=yes
+
+<pin_c>
+type=embeddable
+class=Pin Schema
+default=GPIO04
+required=yes
+
+<pin_d>
+type=embeddable
+class=Pin Schema
+default=GPIO00
+required=yes
+
+<sleep_when_done>
+type=boolean
+default=false
+
+
+<step_mode>
+type=picklist
+picklist=FULL_STEP;HALF_STEP;WAVE_DRIVE
+default=FULL_STEP
+
+<max_speed>
+type=text
+default=250 steps/s
+required=yes
+
+<acceleration>
+type=text
+
+<deceleration>
+type=text
+
+
+[A4988 Stepper]
+main-heading= stepper:
+image=image-a4988-stepper.png
+thumbnail=node-a4988-stepper.png
+class=stepper
+filter=misc
+
+
+<- platform>
+type=text
+default=a4988
+required= yes
+display=hidden
+
+<id>
+type=text
+required=yes
+indent=1
+
+<step_pin>
+type=embeddable
+class=Pin Schema
+default=GPIO16
+required=yes
+
+<dir_pin>
+type=embeddable
+class=Pin Schema
+default=GPIO05
+required=yes
+
+<max_speed>
+type=text
+default=250 steps/s
+required=yes
+
+<sleep_pin>
+type=embeddable
+class=Pin Schema
+default=GPIO04
+
+<acceleration>
+type=text
+
+<deceleration>
+type=text
+
+
+[ESP32 Camera]
+main-heading= esp32_camera:
+image=image-esp32-camera.png
+image-disabled=image-esp32-camera-dis.png
+thumbnail=node-esp32-camera.png
+class=esp32_camera
+filter=misc
+repeatable=no
+display=platform==ESP32
+displaykey=name
+
+<name>
+type=text
+required=yes
+
+<data_pins>
+type=path
+required=yes
+default=[GPIO17, GPIO35, GPIO34, GPIO5, GPIO39, GPIO18, GPIO36, GPIO19]
+
+<vsync_pin>
+type=embeddable
+class=Pin Schema
+default=GPIO22
+required=yes
+
+<href_pin>
+type=embeddable
+class=Pin Schema
+default=GPIO26
+required=yes
+
+<pixel_clock_pin>
+type=embeddable
+class=Pin Schema
+default=GPIO21
+required=yes
+
+<external_clock>
+type=multifields
+required=yes
+
+<external_clock_1>
+field=pin
+type=embeddable
+class=Pin Schema
+default=GPIO27
+required=yes
+
+<external_clock_2>
+field=frequency
+type=text
+default=20MHz
+
+<i2c_pins>
+type=multifields
+required=yes
+
+<i2c_pins_1>
+field=sda
+type=embeddable
+class=Pin Schema
+default=GPIO25
+ 
+
+<i2c_pins_2>
+field=scl
+type=embeddable
+class=Pin Schema
+default=GPIO23
+
+<reset_pin>
+type=embeddable
+class=Pin Schema
+default=GPIO15
+
+<power_down_pin>
+type=embeddable
+class=Pin Schema
+
+<test_pattern>
+type=boolean
+default=false
+
+<max_framerate>
+type=text
+default=10 fps
+
+<idle_framerate>
+type=text
+default=0.1 fps
+
+<resolution>
+type=picklist
+picklist="160x120 (QQVGA)=160x120;128x160 (QQVGA2)=128x160;176x144 (QCIF)=176x144;240x176 (HQVGA)=240x176;320x240 (QVGA)=320x240;400x296 (CIF)=400x296;640x480 (VGA)=640x480;800x600 (SVGA)=800x600;1024x768 (XGA)=1024x768;1280x1024 (SXGA)=1280x1024;1600x1200 (UXGA)=1600x1200 (UXGA)"
+default=640x480
+
+<jpeg_quality>
+type=picklist
+picklist="10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;37;38;39;40;41;42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61;62;63"
+default=10
+
+<contrast>
+type=picklist
+picklist=-2;-1;0;1;2
+default=0
+
+
+<brightness>
+type=picklist
+picklist=-2;-1;0;1;2
+default=0
+
+
+<saturation>
+type=picklist
+picklist=-2;-1;0;1;2
+default=0
+
+<vertical_flip>
+type=boolean
+default=true
+
+<horizontal_mirror>
+type=boolean
+default=true
+
+ 
+[ESP32 Ethernet]
+main-heading= ethernet:
+image=image-ethernet.png
+image-disabled=image-ethernet-dis.png
+thumbnail=node-ethernet.png
+class=ethernet
+filter=misc
+repeatable=no
+display=platform==ESP32
+
+<type>
+type=picklist
+picklist=;LAN8720;TLK110
+required=true
+
+<mdc_pin>
+type=embeddable
+class=Pin Schema
+default=23
+required=yes
+
+<mdio_pin>
+type=embeddable
+class=Pin Schema
+default=18
+required=yes
+
+<clk_mode>
+type=picklist
+picklist=GPIO0_IN;GPIO0_OUT;GPIO16_OUT;GPIO17_OUT
+default=GPIO0_IN
+
+<phy_addr>
+type=text
+default=0
+
+<power_pin>
+type=embeddable
+class=Pin Schema
+
+<manual_ip>
+type=multifields
+
+<manual_ip_1>
+field=static_ip
+type=text
+
+<manual_ip_2>
+field=gateway
+type=text
+
+<manual_ip_3>
+field=subnet
+type=text
+
+<manual_ip_4>
+field=dns1
+type=text
+
+<manual_ip_5>
+field=dns2
+type=text
+
+<domain>
+type=text
+
+<id>
+type=text
+
+
+[ESP32 BE Beacon]
+main-heading= esp32_ble_beacon:
+image=image-ble-beacon.png
+image-disabled=image-ble-beacon-dis.png
+thumbnail=node-ble-beacon.png
+class=ble_beacon
+filter=misc
+repeatable=no
+display=platform==ESP32
+
+<type>
+type=text
+required=yes
+default=iBeacon
+
+<uuid>
+type=text
+required=yes
+
+<major>
+type=text
+
+<minor>
+type=text
+
+<id>
+type=text
+
+
+[Sun Text Sensor]
+image=image-sun.png
+thumbnail=node-sun.png
+class=text_sun
+filter=text
+
+<- platform>
+type=text
+default= sun
+required=yes
+display=hidden
+
+<type>
+type=picklist
+picklist=sunrise;sunset
+required=yes
+indent=1
+
+<name>
+type=text
+required=yes
+
+<format>
+type=text
+default= %X
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Text Sensor
+
+[Sun Sensor]
+image=image-sun.png
+thumbnail=node-sun.png
+class=sensor_sun
+filter=sensor
+
+<- platform>
+type=text
+default= sun
+required=yes
+display=hidden
+
+<type>
+type=picklist
+picklist=elevation;azimuth
+default=elevation
+required=yes
+indent=1
+
+<name>
+type=text
+required=yes
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+[Sun]
+main-heading= sun:
+image=image-sun.png
+image-disabled=image-sun-dis.png
+thumbnail=node-sun.png
+class=sun
+filter=misc
+repeatable=no
+
+<latitude>
+type=text
+required=yes
+
+<longitude>
+type=text
+required=yes
+
+<id>
+type=text
+
+<on_sunrise>
+type=automation
+
+<on_sunset>
+type=automation
+
+
+[Time]
+main-heading= time:
+image=image-time.png
+image-disabled=image-time-dis.png
+thumbnail=node-time.png
+class=time
+filter=misc
+repeatable=no
+
+<- platform>
+type=picklist
+picklist=Home Assistant Time Source=homeassistant;SNTP  Time Source=sntp;GPS Time Source=gps
+default=homeassistant
+
+<id>
+type=text
+
+<timezone>
+type=text
+
+<on_time>
+type=automation
+
+<servers>
+type=path
+default= 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org
+
+
+[Status LED]
+main-heading= status_led:
+image=image-status-led.png
+thumbnail=node-status-led.png
+class=status_led
+filter=misc
+
+<pin>
+type=embeddable
+class=Pin Schema
+required=yes
+
+<id>
+type=text
+
+
+[Remote Transmitter Switch]
+image=image-transmitter.png
+thumbnail=node-transmitter.png
+class=switch_transmitter
+filter=switch
+required-component=remote_transmitter
+
+<- platform>
+type=text
+default= remote_transmitter
+required=yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<id>
+type=text
+
+<jvc>
+type=multifields
+
+<jvc_1>
+field= data
+type=text
+
+<lg>
+type=multifields
+
+<lg_1>
+field= data
+type=text
+
+<lg_2>
+field= nbits
+type=text
+default=28
+
+<nec>
+type= multifields
+
+<nec_1>
+field= address
+type=text
+
+<nec_2>
+field= command
+type=text
+
+<sony>
+type=multifields
+
+<sony_1>
+field= data
+type=text
+
+<sony_2>
+field= nbits
+type=text
+default=12
+
+<raw>
+type=multifields
+
+<raw_1>
+field= code
+type=text
+
+<rc5>
+type=multifields
+
+<rc5_1>
+field= address
+type=text
+
+<rc5_2>
+field= command
+type=text
+
+<samsung>
+type= multifields
+
+<samsung_1>
+field= data
+type=text
+
+<panasonic>
+type=multifields
+
+<panasonic_1>
+field= address
+type=text
+
+<panasonic_2>
+field= command
+type=text
+
+<rc_switch_raw>
+type=multifields
+
+<rc_switch_raw_1>
+field= code
+type=text
+
+<rc_switch_raw_2>
+field= protocol
+type=automation
+
+<rc_switch_type_a>
+type=multifields
+
+<rc_switch_type_a_1>
+field= group
+type=text
+
+<rc_switch_type_a_2>
+field= device
+type=text
+
+<rc_switch_type_a_3>
+field= state
+type=boolean
+default=off
+
+<rc_switch_type_a_4>
+field= protocol
+type=automation
+
+<rc_switch_type_b>
+type=multifields
+
+<rc_switch_type_b_1>
+field= address
+type=picklist
+picklist=1;2;3;4
+default=1
+
+<rc_switch_type_b_2>
+field= channel
+type=picklist
+picklist=1;2;3;4
+default=1
+
+<rc_switch_type_b_3>
+field= state
+type=boolean
+default=off
+
+<rc_switch_type_b_4>
+field= protocol
+type=automation
+
+<rc_switch_type_c>
+type=multifields
+
+<rc_switch_type_c_1>
+field=family
+type=picklist
+picklist=a;b;c;d;e;f;g;h;i;j;k;l;m;n;o;p
+
+<rc_switch_type_c_2>
+field=group
+type=picklist
+picklist=1;2;3;4
+default=1
+
+<rc_switch_type_c_3>
+field=device
+type=picklist
+picklist=1;2;3;4
+default=1
+
+<rc_switch_type_c_4>
+field=state 
+type=boolean
+default=false
+
+<rc_switch_type_c_5>
+field=protocol
+type=automation
+
+<rc_switch_type_d>
+type=multifields
+
+<rc_switch_type_d_1>
+field= group
+type=text
+
+<rc_switch_type_d_2>
+field= device
+type=text
+
+<rc_switch_type_d_3>
+field= state
+type=boolean
+default=off
+
+<rc_switch_type_d_4>
+field= protocol
+type=automation
+
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+
+[Remote Transmitter Hub]
+main-heading= remote_transmitter:
+image=image-transmitter-hub.png
+thumbnail=node-transmitter-hub.png
+class=remote_transmitter
+filter=hub
+
+<pin>
+type=embeddable
+class=Pin Schema
+
+<carrier_duty_percent>
+type=text
+
+<id>
+type=text
+
+[Remote Receiver Binary Sensor]
+image=image-receiver.png
+thumbnail=node-receiver.png
+class=binary_receiver
+filter=binary_sensor
+required-component=remote_receiver
+
+<- platform>
+type=text
+default= remote_receiver
+required=yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<id>
+type=text
+
+<jvc>
+type=multifields
+
+<jvc_1>
+field= data
+type=text
+
+<lg>
+type=multifields
+
+<lg_1>
+field= data
+type=text
+
+<lg_2>
+field= nbits
+type=text
+default=28
+
+<nec>
+type= multifields
+
+<nec_1>
+field= address
+type=text
+
+<nec_2>
+field= command
+type=text
+
+<sony>
+type=multifields
+
+<sony_1>
+field= data
+type=text
+
+<sony_2>
+field= nbits
+type=text
+default=12
+
+<raw>
+type=multifields
+
+<raw_1>
+field= code
+type=text
+
+<rc5>
+type=multifields
+
+<rc5_1>
+field= address
+type=text
+
+<rc5_2>
+field= command
+type=text
+
+<samsung>
+type= multifields
+
+<samsung_1>
+field= data
+type=text
+
+<panasonic>
+type=multifields
+
+<panasonic_1>
+field= address
+type=text
+
+<panasonic_2>
+field= command
+type=text
+
+<rc_switch_raw>
+type=multifields
+
+<rc_switch_raw_1>
+field= code
+type=text
+
+<rc_switch_raw_2>
+field= protocol
+type=automation
+
+<rc_switch_type_a>
+type=multifields
+
+<rc_switch_type_a_1>
+field= group
+type=text
+
+<rc_switch_type_a_2>
+field= device
+type=text
+
+<rc_switch_type_a_3>
+field= state
+type=boolean
+default=off
+
+<rc_switch_type_a_4>
+field= protocol
+type=automation
+
+<rc_switch_type_b>
+type=multifields
+
+<rc_switch_type_b_1>
+field= address
+type=picklist
+picklist=1;2;3;4
+default=1
+
+<rc_switch_type_b_2>
+field= channel
+type=picklist
+picklist=1;2;3;4
+default=1
+
+<rc_switch_type_b_3>
+field= state
+type=boolean
+default=off
+
+<rc_switch_type_b_4>
+field= protocol
+type=automation
+
+<rc_switch_type_c>
+type=multifields
+
+<rc_switch_type_c_1>
+field=family
+type=picklist
+picklist=a;b;c;d;e;f;g;h;i;j;k;l;m;n;o;p
+
+<rc_switch_type_c_2>
+field=group
+type=picklist
+picklist=1;2;3;4
+default=1
+
+<rc_switch_type_c_3>
+field=device
+type=picklist
+picklist=1;2;3;4
+default=1
+
+<rc_switch_type_c_4>
+field=state 
+type=boolean
+default=false
+
+<rc_switch_type_c_5>
+field=protocol
+type=automation
+
+<rc_switch_type_d>
+type=multifields
+
+<rc_switch_type_d_1>
+field= group
+type=text
+
+<rc_switch_type_d_2>
+field= device
+type=text
+
+<rc_switch_type_d_3>
+field= state
+type=boolean
+default=off
+
+<rc_switch_type_d_4>
+field= protocol
+type=automation
+
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+
+[Remote Receiver Hub]
+main-heading=remote_receiver:
+image=image-receiver-hub.png
+thumbnail=node-receiver-hub.png
+class=remote_receiver
+filter=hub
+
+<pin>
+type=embeddable
+class=Pin Schema
+
+<dump>
+type=picklist
+picklist=all; lg; nec; panasonic; jvc; samsung; sony; rc_switch; rc5; raw
+
+<tolerance>
+type=text
+default =25%
+
+<buffer_size>
+type=text
+condition=platform==ESP32?10kb:1kb
+
+<filter>
+type=text
+default=10us
+
+<idle>
+type=text
+default=10ms
+
+<id>
+type=text
+
+<on_jvc>
+ type=automation
+
+<on_lg>
+type=automation
+
+<on_nec>
+type=automation
+
+<on_sony>
+type=automation
+
+<on_raw>
+type=automation
+
+<on_rc5>
+type=automation
+
+<on_samsung>
+type=automation
+
+<on_panasonic>
+type=automation
+
+
+[Yashima Remote Climate]
+image=image-yashima.png
+thumbnail=node-yashima.png
+class=yashima
+filter=climate
+
+<- platform>
+type=text
+default=yashima
+required= yes
+display=hidden
+
+<name>
+type=text
+required= yes
+indent=1
+
+<supports_cool>
+type=boolean
+default=true
+
+<supports_heat>
+type=boolean
+default=true
+
+<sensor>
+type=filter-list
+class=sensor
+
+<receiver_id>
+type=text
+
+<id>
+type=text
+
+<transmitter_id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class= Climate Base
+
+
+[Tcl112 Remote Climate]
+image=image-tcl112.png
+thumbnail=node-tcl112.png
+class=tcl112
+filter=climate
+
+<- platform>
+type=text
+default=tcl112
+required= yes
+display=hidden
+
+<name>
+type=text
+required= yes
+indent=1
+
+<supports_cool>
+type=boolean
+default=true
+
+<supports_heat>
+type=boolean
+default=true
+
+<sensor>
+type=filter-list
+class=sensor
+
+<receiver_id>
+type=text
+
+<id>
+type=text
+
+<transmitter_id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class= Climate Base
+
+[Coolix IR Remote Climate]
+image=image-coolix.png
+thumbnail=node-coolix.png
+class=coolix
+filter=climate
+
+<- platform>
+type=text
+default=coolix
+required= yes
+display=hidden
+
+<name>
+type=text
+required= yes
+indent=1
+
+<supports_cool>
+type=boolean
+default=true
+
+<supports_heat>
+type=boolean
+default=true
+
+<sensor>
+type=filter-list
+class=sensor
+
+<receiver_id>
+type=text
+
+<id>
+type=text
+
+<transmitter_id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class= Climate Base
+
+[Bang Bang Climate Controller]
+image=image-bang-bang.png
+thumbnail=node-bang-bang.png
+class=bang_bang
+filter=climate
+displaykey= - platform
+
+<- platform>
+type=text
+default=bang_bang
+required= yes
+display=hidden
+
+<sensor>
+type=filter-list
+class=sensor
+required=true
+indent=1
+
+<default_target_temperature_low>
+type=text
+required=true
+
+<default_target_temperature_high>
+type=text
+required=true
+
+<idle_action>
+type=automation
+required=true
+
+<heat_action>
+type=automation
+
+<cool_action>
+type=automation
+
+<away_config>
+type=multifields
+
+<away_config_1>
+field= default_target_temperature_low
+type=text
+required=true
+
+<away_config_2>
+field= default_target_temperature_high
+type=text
+required=true
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class= Climate Base
+
+[Climate Base]
+main-heading= climate:
+class=base_class
+prompt-lang-key=showSensorOptions
+
+<visual>
+type=multifields
+
+<visual_1>
+field= min_temperature
+type=text
+
+<visual_2>
+field= max_temperature
+type=text
+
+<visual_3>
+field= temperature_step
+type=text
+
+<internal>
+type=boolean
+default=false
+
+
+[Template Text Sensor]
+image=image-template-text.png
+thumbnail=node-template-text.png
+class=template_text
+filter=text
+
+<- platform>
+type=text
+default=template
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+default=60s
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Text Sensor
+
+
+[WiFi Info Text Sensor]
+image=image-wifi-text.png
+thumbnail=node-wifi-text.png
+class=wifi_info
+filter=text
+repeatable=no
+
+<- platform>
+type=text
+default=wifi_info
+required= yes
+display=hidden
+
+<ip_address>
+type=multifields
+indent=1
+
+<ip_address_1>
+field=name
+type=text
+required=yes
+
+<ip_address_2>
+field=SENSOR_OPTIONS
+type=EMBEDDED_BASE_CLASS
+base_class=Base Text Sensor
+
+<ssid>
+type=multifields
+
+<ssid_1>
+field=name
+type=text
+required=yes
+
+<ssid_2>
+field=SENSOR_OPTIONS
+type=EMBEDDED_BASE_CLASS
+base_class=Base Text Sensor
+
+<bssid>
+type=multifields
+
+<bssid_1>
+field=name
+type=text
+required=yes
+
+<bssid_2>
+field=SENSOR_OPTIONS
+type=EMBEDDED_BASE_CLASS
+base_class=Base Text Sensor
+
+<id>
+type=text
+
+
+[Version Text Sensor]
+image=image-version-text.png
+thumbnail=node-version-text.png
+class=version_text
+filter=text
+repeatable=no
+
+
+<- platform>
+type=text
+default=version
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Text Sensor
+
+[MQTT Subscribe Text Sensor]
+image=image-mqqt-text.png
+thumbnail=node-mqtt-text.png
+class=mqtt_text
+filter=text
+
+<- platform>
+type=text
+default=mqtt_subscribe
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<topic>
+type=text
+required= yes
+
+<qos>
+type=text
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Text Sensor
+
+
+[Homeassistant Text Sensor]
+image=image-homeassistant-text.png
+thumbnail=node-homeassistant-text.png
+class=homeassistant_text
+filter=text
+
+<- platform>
+type=text
+default=homeassistant
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<entity_id>
+type=text
+required= yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Text Sensor
+
+
+[Base Text Sensor]
+main-heading=text_sensor: 
+class=base_class
+prompt-lang-key=showSensorOptions
+
+<icon>
+type=text
+
+<internal>
+type=boolean
+default=false
+
+<on_value>
+type=automation
+
+[Time-Based Cover]
+image=image-time-cover.png
+thumbnail=node-time-cover.png
+class=time_based
+filter=cover
+
+<- platform>
+type=text
+default=time_based
+required= yes
+display=hidden
+
+
+<name>
+type=text
+required=true
+indent=1
+
+<open_action>
+type=automation
+required=true
+
+<open_duration>
+type=text
+required=true
+
+<close_action>
+type=automation
+
+<close_duration>
+type=text
+required=true
+ 
+<stop_action>
+type=automation
+required=true
+
+<has_built_in_endstop>
+type=boolean
+default=false
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Cover
+
+[Endstop Cover]
+image=image-endstop-cover.png
+thumbnail=node-endstop-cover.png
+class=endstop
+filter=cover
+
+<- platform>
+type=text
+default=endstop
+required= yes
+display=hidden
+
+<name>
+type=text
+required=true
+indent=1
+
+<open_action>
+type=automation
+required=true
+
+<open_duration>
+type=text
+required=true
+
+<open_endstop>
+type=filter-list
+class=binary_sensor
+required=true
+
+<close_action>
+type=automation
+
+<close_duration>
+type=text
+required=true
+
+<close_endstop>
+type=filter-list
+class=binary_sensor
+required=true
+
+<stop_action>
+type=automation
+required=true
+
+<max_duration>
+type=text
+
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Cover
+
+
+[Template Cover]
+image=image-template-cover.png
+thumbnail=node-template-cover.png
+class=template_cover
+filter=cover
+
+<- platform>
+type=text
+default=template
+required= yes
+display=hidden
+
+<name>
+type=text
+required=true
+indent=1
+
+<lambda>
+type=automation
+
+<open_action>
+type=automation
+
+<close_action>
+type=automation
+
+<stop_action>
+type=automation
+
+<optimistic>
+type=boolean
+default=false
+
+<assumed_state>
+type=boolean
+default=false
+
+<has_position>
+type=boolean
+default=false
+
+<tilt_action>
+type=automation
+
+<tilt_lambda>
+type=automation
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Cover
+
+
+[Base Cover]
+main-heading= cover:
+class=base_classs
+prompt-lang-key=showSensorOptions
+
+<device_class>
+type=picklist
+picklist="None;awning;blind;curtain;damper;door;garage;gate;shade;shutter;window"
+default=None
+
+
+<internal>
+type=boolean
+default=false
+
+[Waveshare E-Paper Display]
+main-heading=display:
+image=image-waveshare-epaper.png
+thumbnail=node-waveshare-epaper.png
+class=epaper
+filter=display
+required-component=spi
+
+<- platform>
+type=text
+default=waveshare_epaper
+required= yes
+display=hidden
+
+<cs_pin>
+required=true
+type=embeddable
+class=Pin Schema
+indent=1
+
+<dc_pin>
+required=true
+type=embeddable
+class=Pin Schema
+
+<model>
+required=true
+type=picklist
+picklist=1.54in;2.13in;2.13in-ttgo;2.70in;2.90in;4.20in;7.50in
+default=2.90in
+
+<busy_pin>
+type=embeddable
+class=Pin Schema
+
+reset_pin
+type=embeddable
+class=Pin Schema
+
+<rotation>
+type=picklist
+picklist=0;90;180;270
+default=0
+
+<full_update_every>
+type=text
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+default=1s
+
+<pages>
+type=insertable
+class=Display Pages
+
+<spi_id>
+type=built-in-list
+class=spi
+
+<id>
+type=text
+
+
+[SSD1325 OLED Display SPI]
+main-heading=display:
+image=image-ssd1325-spi.png
+thumbnail=node-ssd1325-spi.png
+class=ssd1325_spi
+filter=display
+required-component=spi
+
+<- platform>
+type=text
+default=ssd1325_spi
+required= yes
+display=hidden
+
+<model>
+type=picklist
+picklist= SSD1325 128x32;SSD1325 128x64;SSD1325 96x16;SSD1325 64x48
+default=SSD1325 128x64
+indent=1
+
+<reset_pin>
+type=embeddable
+class=Pin Schema
+
+<cs_pin>
+type=embeddable
+class=Pin Schema
+
+<dc_pin>
+type=embeddable
+class=Pin Schema
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+
+<pages>
+type=insertable
+class=Display Pages
+
+<id>
+type=text
+
+[SSD1306 OLED Display SPI]
+main-heading=display:
+image=image-ssd1306-spi.png
+thumbnail=node-ssd1306-spi.png
+class=ssd1306_spi
+filter=display
+required-component=spi
+
+<- platform>
+type=text
+default=ssd1306_spi
+required= yes
+display=hidden
+
+<model>
+type=picklist
+picklist=;SSD1306 128x32;SSD1306 128x64;SSD1306 96x16;SSD1306 64x48;SH1106 128x32;SH1106 128x64;SH1106 96x16;SH1106 64x48
+required=true
+indent=1
+
+<cs_pin>
+type=embeddable
+class=Pin Schema
+required=true
+
+<dc_pin>
+type=embeddable
+class=Pin Schema
+required=true
+
+<reset_pin>
+type=embeddable
+class=Pin Schema
+
+<rotation>
+type=picklist
+picklist=0;90;180;270
+default=0
+
+<external_vcc>
+type=boolean
+default=false
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+
+<pages>
+type=insertable
+class=Display Pages
+
+<spi_id>
+type=built-in-list
+class=spi
+
+<id>
+type=text
+
+<brightness>
+type=text
+default=100%
+
+
+[SSD1306 OLED Display I2C]
+main-heading=display:
+image=image-ssd1306-i2c.png
+thumbnail=node-ssd1306-i2c.png
+class=ssd1306_i2c
+filter=display
+required-component=i2c
+
+<- platform>
+type=text
+default=ssd1306_i2c
+required= yes
+display=hidden
+
+<model>
+type=picklist
+picklist=;SSD1306 128x32; SSD1306 128x64; SSD1306 96x16; SSD1306 64x48; SH1106 128x32; SH1106 128x64;SH1106 96x16;SH1106 64x48
+required=true
+indent=1
+
+<reset_pin>
+type=embeddable
+class=Pin Schema
+
+<address>
+type=text
+default=0x3c
+
+<rotation>
+type=picklist
+picklist=0;90;180;270
+default=0
+
+<brigthness>
+type=picklist
+picklist=0.0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1.0
+default=1.0
+
+<external_vcc>
+type=boolean
+default=false
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+
+<pages>
+type=insertable
+class=Display Pages
+
+<id>
+type=text
+
+<brightness>
+type=text
+default=100%
+
+
+[Nextion TFT LCD Display]
+main-heading=display:
+image=image-nextion.png
+thumbnail=node-nextion.png
+class=nextion
+filter=display
+required-component=uart
+
+<- platform>
+type=text
+default=nextion
+required= yes
+display=hidden
+
+<uart_id>
+type=built-in-list
+class=uart
+indent=1
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+default=1s
+
+<id>
+type=text
+
+[MAX7219 7-Segment Display]
+main-heading=display:
+image=image-max7219.png
+thumbnail=node-max7219.png
+class=max7219
+filter=display
+required-component=spi
+
+<- platform>
+type=text
+default=max7219
+required= yes
+display=hidden
+
+<cs_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+indent=1
+
+<num_chips>
+type=text
+default=1
+
+<intensity>
+type=picklist
+picklist=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+default=15
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+default=1s
+
+<spi_id>
+type=built-in-list
+class=spi
+
+<id>
+type=text
+
+
+[GPIO LCD Display]
+main-heading=display:
+image=image-lcd-gpio.png
+thumbnail=node-lcd-gpio.png
+class=lcd_gpio
+filter=display
+
+<- platform>
+type=text
+default=lcd_gpio
+required= yes
+display=hidden
+
+<dimensions>
+type=text
+required=yes
+indent=1
+
+<data_pins>
+type=multifields
+required=yes
+
+<data_pins_1>
+field=- pin
+type=embeddable
+class=Pin Schema
+
+<data_pins_2>
+field=- pin
+type=embeddable
+class=Pin Schema
+
+<data_pins_3>
+field=- pin
+type=embeddable
+class=Pin Schema
+
+<data_pins_4>
+field=- pin
+type=embeddable
+class=Pin Schema
+
+<data_pins_5>
+field=- pin
+type=embeddable
+class=Pin Schema
+
+<data_pins_6>
+field=- pin
+type=embeddable
+class=Pin Schema
+
+<data_pins_7>
+field=- pin
+type=embeddable
+class=Pin Schema
+
+<data_pins_8>
+field=- pin
+type=embeddable
+class=Pin Schema
+
+<enable_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+
+<rs_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+
+<rw_pin>
+type=embeddable
+class=Pin Schema
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+default=1s
+
+<id>
+type=text
+
+[PCF8574 LCD Display]
+main-heading=display:
+image=image-pcf8574.png
+thumbnail=node-pcf8574.png
+class=lcd_pcf8574
+filter=display
+required-component=i2c
+
+<- platform>
+type=text
+default=lcd_pcf8574
+required= yes
+display=hidden
+
+<dimensions>
+type=text
+required=yes
+indent=1
+
+<address>
+type=text
+default=0x3F
+
+<lambda>
+type=automation
+
+<update_interval>
+type=text
+default=1s
+
+<id>
+type=text
+
+
+[Display Pages]
+class=pages
+
+<id>
+type=text
+required=true
+
+<lambda>
+type=automation
+required=true
+
+[Font]
+main-heading=font:
+image=image-font.png
+thumbnail=node-font.png
+class=font
+filter=core
+
+<file>
+type=path
+required=true
+
+<id>
+type=text
+required=true
+
+<size>
+type=text
+default=20
+
+<glyphs>
+type=text-multiline
+default=!"%()+,-_.:°0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
+
+[Image]
+main-heading=image:
+image=image-image.png
+thumbnail=node-image.png
+class=image
+filter=core
+
+<file>
+type=path
+required=true
+
+<id>
+type=text
+required=true
+
+<resize>
+type=text
+
+
+[Speed Fan]
+image=image-speed-fan.png
+thumbnail=node-speed-fan.png
+class=fan_speed
+filter=fan
+
+<- platform>
+type=text
+default=speed
+required= yes
+display=hidden
+
+<output>
+type=filter-list
+class=output
+required=yes
+indent=1
+
+<name>
+type=text
+required=yes
+
+<oscillation_output>
+type=filter-list
+class=output
+
+<speed>
+type=picklist
+picklist=;OFF;LOW;MEDIUM;HIGH
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Fan Core
+
+[Binary Fan]
+image=image-binary-fan.png
+thumbnail=node-binary-fan.png
+class=fan_binary
+filter=fan
+
+<- platform>
+type=text
+default=binary
+required= yes
+display=hidden
+
+<output>
+type=filter-list
+class=output
+required=yes
+indent=1
+
+<name>
+type=text
+required=yes
+
+<oscillation_output>
+type=filter-list
+class=output
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Fan Core
+
+
+[Fan Core]
+main-heading= fan:
+class=base_classs
+prompt-lang-key=showSensorOptions
+
+<internal>
+type=boolean
+default=false
+
+<oscillating>
+type=boolean
+default=false
+
+<oscillation_state_topic>
+type=text-multiline
+
+<oscillation_command_topic>
+type=text-multiline
+
+<speed_state_topic>
+type=text-multiline
+
+<speed_command_topic>
+type=text-multiline
+
+[UART Switch]
+image=image-uart-switch.png
+thumbnail=node-uart-switch.png
+class=switch_uart
+filter=switch
+required-component=uart
+
+<- platform>
+type=text
+default=uart
+required= yes
+display=hidden
+
+<data>
+type=automation
+required=yes
+
+<name>
+type=text
+required=yes
+indent=1
+
+<uart_id>
+type=built-in-list
+class=uart
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+
+[Template Switch]
+image=image-template-switch.png
+thumbnail=node-template-switch.png
+class=switch_template
+filter=switch
+
+<- platform>
+type=text
+default=template
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<lambda>
+type=automation
+
+<turn_on_action>
+type=automation
+
+<turn_off_action>
+type=automation
+
+<restore_state>
+type=boolean
+default=no
+
+<optimistic>
+type=boolean
+default=false
+
+<assumed_state>
+type=boolean
+default=false
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+
+[Generic Output Switch]
+image=image-output-switch.png
+thumbnail=node-output-switch.png
+class=switch_generic
+filter=switch
+
+<- platform>
+type=text
+default=output
+required= yes
+display=hidden
+
+<output>
+type=filter-list
+class=output
+required=yes
+indent=1
+
+<name>
+type=text
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+
+[Shutdown Switch]
+image=image-shutdown-switch.png
+image-disabled=image-shutdown-switch-dis.png
+thumbnail=node-shutdown-switch.png
+class=switch_shutdown
+filter=switch
+repeatable=no
+
+<- platform>
+type=text
+default=shutdown
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+[Restart Switch]
+image=image-restart-switch.png
+image-disabled=image-restart-switch-dis.png
+thumbnail=node-restart-switch.png
+class=switch_restart
+filter=switch
+repeatable=no
+
+<- platform>
+type=text
+default=restart
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+[GPIO Switch]
+image=image-gpio-switch.png
+thumbnail=node-gpio-switch.png
+class=switch_gpio
+filter=switch
+
+<- platform>
+type=text
+default=gpio
+required= yes
+display=hidden
+
+<pin>
+type=embeddable
+class=Pin Schema
+indent=1
+
+<name>
+type=text
+required=yes
+
+<id>
+type=text
+
+<restore_mode>
+type=picklist
+picklist= RESTORE_DEFAULT_OFF; RESTORE_DEFAULT_ON; ALWAYS_OFF; ALWAYS_ON
+default= RESTORE_DEFAULT_OFF
+
+<interlock>
+type=text-multiline
+
+<interlock_wait_time>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Switch
+
+[Base Switch]
+main-heading= switch:
+class=base_classs
+prompt-lang-key=showSensorOptions
+
+<icon>
+type=text
+
+<inverted>
+type=boolean
+default=false
+
+<internal>
+type=boolean
+default=false
+
+<on_turn_on>
+type=automation
+
+<on_turn_off>
+type=automation
+
+[FastLED Light SPI]
+image=image-fastled-light.png
+thumbnail=node-fastled-light.png
+class= fastled_spi
+filter=light
+
+<- platform>
+type=text
+default=fastled_spi
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<chipset>
+type=picklist
+required=yes
+default=WS2801
+picklist=APA102;DOTSTAR;LPD8806;P9813;SK9822;SM16716;WS2801;WS2803
+
+<data_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+
+<clock_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+
+<num_leds>
+type=text
+required=yes
+
+<rgb_order>
+type=picklist
+picklist=RGB;RBG;GRB;GBR;BRG;BGR
+default=RGB
+
+<max_refresh_rate>
+type=text
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Light
+
+[FastLED Light Clockless]
+image=image-fastled-clockless.png
+thumbnail=node-fastled-clockless.png
+class= fastled_clockless
+filter=light
+
+<- platform>
+type=text
+default=fastled_clockless
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<chipset>
+type=picklist
+required=yes
+default=WS2811
+picklist="NEOPIXEL;WS2811;WS2811_400;WS2812B;WS2812;WS2813;WS2852;APA104;APA106;GW6205;GW6205_400;LPD188
+6;LPD1886_8BIT ;PL9823;SK6812;SK6822;TM1803;TM1804;TM1809;TM1829;UCS1903B;UCS1903;UCS1904;UCS2903"
+
+<pin>
+type=embeddable
+class=Pin Schema
+required=yes
+
+<num_leds>
+type=text
+required=yes
+
+<rgb_order>
+type=picklist
+picklist=RGB;RBG;GRB;GBR;BRG;BGR
+default=RGB
+
+<max_refresh_rate>
+type=text
+
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Light
+
+
+
+[RGBW Light]
+image=image-rgbw-light.png
+thumbnail=node-rgbw-light.png
+class= rgbw_light
+filter=light
+
+<- platform>
+type=text
+default=rgbw
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<red>
+type=filter-list
+class=output
+required=yes
+
+<green>
+type=filter-list
+class=output
+required=yes
+
+<blue>
+type=filter-list
+class=output
+required=yes
+
+<white>
+type=filter-list
+class=output
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Light
+
+[RGB Light]
+image=image-rgb-light.png
+thumbnail=node-rgb-light.png
+class= rgb_light
+filter=light
+
+<- platform>
+type=text
+default=rgb
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<red>
+type=filter-list
+class=output
+required=yes
+
+<green>
+type=filter-list
+class=output
+required=yes
+
+<blue>
+type=filter-list
+class=output
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Light
+
+[Binary Light]
+image=image-binary-light.png
+thumbnail=node-binary-light.png
+class= binary_light
+filter=light
+
+<- platform>
+type=text
+default=binary
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<output>
+type=filter-list
+class=output
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Light
+
+
+[Strobe Effect]
+class=insertable
+
+<- strobe>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Strobe
+indent=1
+
+<colors>
+type=multifields
+
+<colors_1>
+field= state
+type=boolean
+default=true
+
+<colors_2>
+field= brightness
+type=text
+default=100%
+
+<colors_3>
+field= red
+type=text
+default=100%
+
+<colors_4>
+field= green
+type=text
+default=100%
+
+<colors_5>
+field= blue
+type=text
+default=100%
+
+<colors_6>
+field= white
+type=text
+default=100%
+
+<colors_7>
+field= duration
+type=text
+required=yes
+
+[Random Effect]
+class=insertable
+
+<- random>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Random
+indent=1
+
+<transition_length>
+type=text
+default=5s
+
+<update_interval>
+type=text
+
+[Flicker Effect]
+class=insertable
+
+<- flicker>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Flicker
+indent=1
+
+<alpha>
+type=text
+default=95%
+
+<intensity>
+type=text
+default=1.5%
+
+[Lambda Effect]
+class=insertable
+
+<- lambda>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<update_interval>
+type=text
+default=0ms
+
+<lambda>
+type=automation
+required =yes
+
+[Addressable Rainbow Effect]
+class=insertable
+
+<- addressable_rainbow>
+type=text
+required= yes
+display=hidden
+
+< name>
+type=text
+default= Rainbow
+indent=1
+
+<speed>
+type=text
+default= 10
+
+<width>
+type=text
+default=50
+
+[Addressable Color Wipe Effect]
+class=insertable
+
+<- addressable_color_wipe>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Color Wipe
+indent=1
+
+<colors>
+type=multifields
+
+<colors_1>
+field= red 
+type=text
+default=100%
+
+<colors_2>
+field=green
+type=text
+default=100%
+
+<colors_3>
+field= blue
+type=text
+default=100%
+
+<colors_4>
+field= random
+type=boolean
+default=false
+
+<colors_5>
+field= num_leds
+type=text
+
+<add_led_interval>
+type=text
+
+<reverse>
+type=boolean
+default=false
+
+
+[Addressable Scan Effect]
+class=insertable
+
+<- addressable_scan>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Scan
+indent=1
+
+<move_interval>
+type=text
+default=100ms
+
+<scan_width>
+type=text
+default=1
+
+
+[Addressable Twinkle Effect]
+class=insertable
+
+<- addressable_twinkle>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Twinkle
+indent=1
+
+<twinkle_probability>
+type=text
+
+<progress_interval>
+type=text
+default= 4ms
+
+[Addressable Random Twinkle Effect]
+class=insertable
+
+<- addressable_random_twinkle>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Random Twinkle
+indent=1
+
+<twinkle_probability>
+type=text
+
+<progress_interval>
+type=text
+default= 4ms
+
+[Addressable Fireworks Effect]
+class=insertable
+
+<- addressable_fireworks>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Fireworks
+indent=1
+
+<update_interval>
+type=text
+default= 32ms
+
+<spark_probability>
+type=text
+default= 10ms
+
+<use_random_color>
+type=boolean
+default=false
+
+<fade_out_rate>
+type=text
+default=120
+
+[Addressable Flicker Effect]
+class=insertable
+
+<- addressable_flicker>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Addressable Flicker
+indent=1
+
+<update_interval>
+type=text
+default= 16ms
+
+<intensity>
+type=text
+default= 5%
+
+
+[Addressable Lambda Effect]
+class=insertable
+
+<- addressable_lambda>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Addressable Lambda
+indent=1
+
+<update_interval>
+type=text
+default= 16ms
+
+<lambda>
+type=automation
+
+[Automation Light Effect]
+class=insertable
+
+<- automation>
+type=text
+required= yes
+display=hidden
+
+<name>
+type=text
+default= Automation
+indent=1
+
+<sequence>
+type=automation
+
+
+[Base Light]
+main-heading=light: 
+class=base_class
+prompt-lang-key=showSensorOptions
+
+<effects>
+type=insertable-from-picklist
+picklist= ";Random Effect; Strobe Effect; Flicker Effect; Lambda Effect; Addressable Rainbow Effect;Addressable Color Wipe Effect;Addressable Scan Effect;Addressable Twinkle Effect;Addressable Random Twinkle Effect;Addressable Fireworks Effect;Addressable Flicker Effect;Addressable Lambda Effect;Automation Light Effect"
+
+<gamma_correct>
+type=text
+default=2.8
+
+<default_transition_length>
+type=text
+default=1s
+
+<restore_mode>
+type=picklist
+picklist= "RESTORE_DEFAULT_OFF; RESTORE_DEFAULT_ON; ALWAYS_OFF; ALWAYS_ON"
+default= RESTORE_DEFAULT_OFF
+
+<color_correct>
+type=path
+
+<power_supply>
+type=built-in-list
+class=power_supply
+
+<internal>
+type=boolean
+default=false
+
+
+[PCA9685]
+image=image-pca9685.png
+thumbnail=node-pca9685.png
+class= pca9685
+filter=output
+required-component=pca9685_hub
+
+<- platform>
+type=text
+default=pca9685
+required= yes
+display=hidden
+
+<id>
+type=text
+required=yes
+indent=1
+
+<channel>
+type=picklist
+picklist=0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15
+default=0
+required=yes
+
+<pca9685_id>
+type=built-in-list
+class= pca9685_hub
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Output
+
+[PCA9685 Hub]
+main-heading=pca9685:
+image=image-pca9685-hub.png
+thumbnail=node-pca9685-hub.png
+class= pca9685_hub
+filter=hub
+
+<frequency>
+type=text
+default=500
+required=yes
+
+<address>
+type=text
+default=0x00
+
+<id>
+type=text
+
+[SM16716 LED Driver]
+image=image-SM16716.png
+thumbnail=node-SM16716.png
+class= sm16716_led
+filter=output
+required-component=sm16716_hub
+
+<- platform>
+type=text
+default=sm16716
+required= yes
+display=hidden
+
+<id>
+type=text
+required=yes
+indent=1
+
+<channel>
+type=text
+default=0
+required=yes
+
+<sm16716_id>
+type=built-in-list
+class= sm16716_hub
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Output
+
+
+[SM16716 LED Driver Hub]
+main-heading=my9231:
+image=image-SM16716-hub.png
+thumbnail=node-SM16716-hub.png
+class= sm16716_hub
+filter=hub
+
+<data_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+default=14
+
+<clock_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+default=04
+
+<num_channels>
+type=text
+default=3
+
+<num_chips>
+type=text
+default=1
+
+<bit_depth>
+type=picklist
+picklist=8;12;14;16
+default=16
+
+<id>
+type=text
+required=yes
+
+[MY9231/MY9291 LED Driver]
+image=image-my9231.png
+thumbnail=node-my9231.png
+class= my9231_led
+filter=output
+required-component=my9231_hub
+
+<- platform>
+type=text
+default=my9231
+required= yes
+display=hidden
+
+<id>
+type=text
+required=yes
+indent=1
+
+<channel>
+type=text
+default=0
+required=yes
+
+<my9231_id>
+type=built-in-list
+class= my9231_hub
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Output
+
+[MY9231/MY9291 LED Driver Hub]
+main-heading=my9231:
+image=image-my9231-hub.png
+thumbnail=node-my9231-hub.png
+class= my9231_hub
+filter=hub
+
+<data_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+default=12
+
+<clock_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+default=14
+
+<num_channels>
+type=text
+default=6
+
+<num_chips>
+type=text
+default=2
+
+<bit_depth>
+type=picklist
+picklist=8;12;14;16
+default=16
+
+<id>
+type=text
+
+
+[ESP32 LEDC Output]
+image=image-esp32-ledc.png
+image-disabled=image-esp32-ledc-dis.png
+thumbnail=node-esp32-ledc.png
+class= output_esp32ledc
+filter=output
+display=platform==ESP32
+
+<- platform>
+type=text
+default=ledc
+required= yes
+display=hidden
+
+<id>
+type=text
+required=yes
+indent=1
+
+<pin>
+required=yes
+type=embeddable
+class=Pin Schema
+
+<frequency>
+type=text
+default=1000 Hz
+
+<bit_depth>
+type=text
+
+<channel>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Output
+
+
+[GPIO Output]
+image=image-gpio-output.png
+thumbnail=node-gpio-output.png
+class= output_gpio
+filter=output
+
+<- platform>
+type=text
+default=gpio
+required= yes
+display=hidden
+
+<id>
+type=text
+required=yes
+indent=1
+
+<pin>
+required=yes
+type=embeddable
+class=Pin Schema
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Output
+
+
+[ESP8266 Software PWM Output]
+image=image-esp8266-pwm.png
+image-disabled=image-esp8266-pwm-dis.png
+thumbnail=node-esp8266-pwm.png
+class= esp8266_pwm
+filter=output
+display=platform==ESP8266
+
+<- platform>
+type=text
+default=esp8266_pwm
+required= yes
+display=hidden
+
+<id>
+type=text
+required=yes
+indent=1
+
+<pin>
+required=yes
+type=embeddable
+class=Pin Schema
+
+<frequency>
+type=text
+default=1000 Hz
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Output
+
+
+[Base Output]
+main-heading=output: 
+class=base_class
+prompt-lang-key=showSensorOptions
+
+<power_supply>
+type=built-in-list
+class=power_supply
+
+<inverted >
+type=boolean
+default=false
+
+<min_power>
+type=text
+default=0
+
+<max_power>
+type=text
+default=1
+
+
+[PN532 NFC/RFID Tag]
+image=image-pn532.png
+image-disabled=image-pn532-dis.png
+thumbnail=node-pn532.png
+class= pn532_tag
+filter=binary_sensor
+required-component=pn532_hub
+
+<- platform>
+type=text
+default=pn532
+required= yes
+display=hidden
+
+<uid>
+type=path
+required=yes
+indent=1
+
+<name>
+type=text
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+[PN532 NFC/RFID Hub]
+main-heading= pn532:
+image=image-pn532-hub.png
+image-disabled=image-pn532-hub-dis.png
+thumbnail=node-pn532-hub.png
+class= pn532_hub
+filter=hub
+repeatable=no
+required-component=spi
+
+<cs_pin>
+type=embeddable
+class=Pin Schema
+required=yes
+
+
+<update_interval>
+type=text
+default=1s
+
+<on_tag>
+type=automation
+
+<spi_id>
+type=built-in-list
+class=spi
+
+
+<id>
+type=text
+
+
+[ESP32 BLE Presence]
+image=image-ble-presence.png
+image-disabled=image-ble-presence-dis.png
+thumbnail=node-ble-presence.png
+class= ble_presence
+filter= binary_sensor
+display=platform==ESP32
+required-component=esp32_ble_tracker
+
+<- platform>
+type=text
+default=ble_presence
+required= yes
+display=hidden
+
+<mac_address>
+type=path
+required=true
+indent=1
+
+<name>
+type=text
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+[ESP32 BLE Tracker Hub]
+main-heading= esp32_ble_tracker:
+image=image-ble-tracker.png
+image-disabled=image-ble-tracker-dis.png
+thumbnail=node-ble-tracker.png
+class= esp32_ble_tracker
+filter=hub
+display=platform==ESP32
+repeatable=no
+
+<scan_parameters>
+type=multifields
+
+<scan_parameters_1>
+field=interval
+type=text
+default=320ms
+
+<scan_parameters_2>
+field=window
+type=text
+
+<scan_parameters_3>
+field=duration
+type=text
+default=5min
+
+<scan_parameters_4>
+field=active
+type=boolean
+default=true
+
+<id>
+type=text
+
+
+[Template Binary Sensor]
+image=image-template-binary.png
+thumbnail=node-template-binary.png
+class= binary_template
+filter= binary_sensor
+
+<- platform>
+type=text
+default= template
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<lambda>
+type=automation
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+[ESP32 Touch Pad]
+image=image-esp32-touch.png
+image-disabled=image-esp32-touch-dis.png
+thumbnail=node-esp32-touch.png
+class= esp32_touch
+filter= binary_sensor
+display=platform==ESP32
+required-component=esp32_touch_hub
+
+<- platform>
+type=text
+default= esp32_touch
+required= yes
+display=hidden
+
+<pin>
+type=embeddable
+class=Pin Schema
+filter=esp32_touch
+required= yes
+indent=1
+
+<name>
+type=text
+required=yes
+
+<threshold>
+type=text
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+
+[ESP32 Touch Pad Hub]
+main-heading= esp32_touch:
+image=image-esp32-touch-pad-hub.png
+image-disabled=image-esp32-touch-pad-hub-dis.png
+thumbnail=node-esp32-touch.png
+class= esp32_touch_hub
+filter=hub
+display=platform==ESP32
+repeatable=no
+
+<setup_mode>
+type=boolean
+default=false
+
+<iir_filter>
+type=text
+
+<sleep_duration>
+type=text
+
+<measurement_duration>
+type=text
+
+<low_voltage_reference>
+type=picklist
+picklist= 0.5V,;0.6V;0.7V,;0.8V
+default= 0.5V.
+
+<voltage_attenuation>
+type=picklist
+picklist= 1.5V;1V;0.5V;0V
+default=0V
+
+<id>
+type=text
+
+
+[Status Binary Sensor]
+image=image-status.png
+image-disabled=image-status-dis.png
+thumbnail=node-status.png
+class= status
+filter=binary_sensor
+repeatable=no
+
+<- platform>
+type=text
+default= status
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+[Homeassistant Binary Sensor]
+image=image-homeassistant.png
+thumbnail=node-homeassistant.png
+class= homeassistant
+filter=binary_sensor
+
+<- platform>
+type=text
+default= homeassistant
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<entity_id>
+type=text
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+
+[GPIO Binary Sensor]
+image=image-gpio.png
+thumbnail=node-gpio.png
+class= binary_gpio
+filter=binary_sensor
+
+<- platform>
+type=text
+default= gpio
+required= yes
+display=hidden
+
+<pin>
+type=embeddable
+class=Pin Schema
+required=yes
+indent=1
+
+<name>
+type=text
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Binary Sensor
+
+[Base Binary Sensor]
+main-heading=binary_sensor: 
+class=base_class
+prompt-lang-key=showSensorOptions
+
+<device_class>
+type=picklist
+picklist="None; battery; cold; connectivity;door;garage_door; gas; heat;light;lock; moisture; motion; moving; occupancy; opening; plug; power; presence; problem;safety;smoke; sound; vibration; window"
+
+<filters>
+type=multifields
+
+<filters_1>
+field= invert
+type=boolean
+default=false
+
+<filters_2>
+field=delayed_on
+type=text
+
+<filters_3>
+field= delayed_off
+type=text
+
+<filters_4>
+field= delayed_on_off
+type=text
+
+<filters_5>
+field=lambda
+type=automation
+
+<on_press>
+type=automation
+
+<on_release>
+type=automation
+
+<on_state>
+type=automation
+
+<on_click>
+type=automation
+
+<on_double_click>
+type=automation
+
+<on_multi_click>
+type=automation
+
+<internal>
+type=boolean
+default=false
+
+[Resistance Sensor]
+image=image-resistance.png
+thumbnail=node-resistance.png
+class= resistance_sensor
+filter=sensor
+
+<- platform>
+type=text
+default= resistance
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<sensor>
+type=filter-list
+class=sensor
+
+<configuration>
+type=picklist
+picklist= ;DOWNSTREAM; UPSTREAM
+required=yes
+
+<resistor>
+type=text 
+required=yes
+
+<reference_voltage>
+type=text 
+default=3.3v
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+
+[Homeassistant Sensor]
+image=image-homeassistant.png
+thumbnail=node-homeassistant.png
+class= homeassistant
+filter=sensor
+
+<- platform>
+type=text
+default= homeassistant
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<entity_id>
+type=text
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+
+
+[Template Sensor]
+image=image-template-sensor.png
+thumbnail=node-template-sensor.png
+class= template_sensor
+filter=sensor
+
+<- platform>
+type=text
+default= template
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<lambda>
+type=automation
+required=yes
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+[NTC Sensor]
+image=image-ntc.png
+thumbnail=node-ntc.png
+class=ntc
+filter=sensor
+
+<- platform>
+type=text
+default= ntc
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<sensor>
+type=filter-list
+class=sensor
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+
+[WiFi Signal]
+image=image-wifi-signal.png
+thumbnail=node-wifi-signal.png
+class=wifi_signal
+filter=sensor
+repeatable=no
+
+<- platform>
+type=text
+default= wifi_signal
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<update_interval>
+type=text
+default=60s
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+
+[Uptime Sensor]
+image=image-uptime.png
+image-disabled=image-uptime-dis.png
+thumbnail=node-uptime.png
+class=uptime
+filter=sensor
+repeatable=no
+
+<- platform>
+type=text
+default= uptime
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<update_interval>
+type=text
+default=60s
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+[Ultrasonic Distance]
+image=image-ultrasonic.png
+thumbnail=node-ultrasonic.png
+class=ultrasonic
+filter=sensor
+
+<- platform>
+type=text
+default= ultrasonic
+required= yes
+display=hidden
+
+<trigger_pin>
+type=embeddable
+class=Pin Schema
+indent=1
+
+<echo_pin>
+type=embeddable
+class=Pin Schema
+
+<name>
+type=text
+required=yes
+
+<update_interval>
+type=text
+default=60s
+
+<timeout>
+type=text
+
+<pulse_time>
+type=text
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+[Duty Cycle]
+image=image-duty-cycle.png
+thumbnail=node-duty-cycle.png
+class=duty_cycle
+filter=sensor
+
+<- platform>
+type=text
+default= duty_cycle
+required= yes
+display=hidden
+
+<pin>
+type=embeddable
+class=Pin Schema
+indent=1
+
+<name>
+type=text
+required=yes
+
+<update_interval>
+type=text
+default=60s
+
+<id>
+type=text
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+
+[ESP32 Hall]
+image=image-esp32-hall.png
+image-disabled=image-esp32-hall-dis.png
+thumbnail=node-esp32-hall.png
+class=esp32_hall
+filter=sensor
+display=platform==ESP32
+repeatable=no
+
+<- platform>
+type=text
+default= esp32_hall
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<update_interval>
+type=text
+default=60s
+
+<SENSOR_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+
+[DHT12 Temperature+Humidity]
+image=image-dht12.png
+thumbnail=node-dht12.png
+class=dht12
+filter=sensor
+required-component=i2c
+
+<- platform>
+type=text
+default=dht12
+required= yes
+display=hidden
+
+<temperature>
+type=multifields
+required=yes
+indent=1
+
+<temperature_1>
+field=name
+type=text
+required=yes
+
+<temperature_2>
+field=id
+type=text
+
+<temperature_3>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+<humidity>
+type=multifields
+required=yes
+
+<humidity_1>
+field=name
+type=text
+required=yes
+
+<humidity_2>
+field=id
+type=text
+
+<humidity_3>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+
+<update_interval>
+type=text
+default=60s
+
+[AM2320 Temperature+Humidity]
+image=image-am2320.png
+thumbnail=node-am2320.png
+class=am2320
+filter=sensor
+required-component=i2c
+
+<- platform>
+type=text
+default=am2320
+required= yes
+display=hidden
+
+<temperature>
+type=multifields
+required=yes
+indent=1
+
+<temperature_1>
+field=name
+type=text
+required=yes
+
+<temperature_2>
+field=id
+type=text
+
+<temperature_3>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+<humidity>
+type=multifields
+required=yes
+
+<humidity_1>
+field=name
+type=text
+required=yes
+
+<humidity_2>
+field=id
+type=text
+
+<humidity_3>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+<update_interval>
+type=text
+default=60s
+
+
+[DHT Temperature+Humidity]
+image=image-dht.png
+thumbnail=node-dht.png
+class=dht
+filter=sensor
+
+<- platform>
+type=text
+default=dht
+required= yes
+display=hidden
+
+<pin>
+type=embeddable
+class=Pin Schema
+required=yes
+indent=1
+
+<temperature>
+type=multifields
+required=yes
+
+
+<temperature_1>
+field=name
+type=text
+required=yes
+
+<temperature_2>
+field=id
+type=text
+
+<temperature_3>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+<humidity>
+type=multifields
+required=yes
+
+<humidity_1>
+field=name
+type=text
+required=yes
+
+<humidity_2>
+field=id
+type=text
+
+<humidity_3>
+type=EMBEDDED_BASE_CLASS
+base_class=Base Sensor
+
+<model>
+type=picklist
+picklist= AUTO_DETECT; DHT11;DHT22,;AM2302; RHT03;SI7021
+default= AUTO_DETECT
+
+<update_interval>
+type=text
+default=60s
+
+[Dallas Temperature Sensor]
+image=image-dallas.png
+thumbnail=node-dallas.png
+class=dallas
+filter=sensor
+required-component=dallas_hub
+
+<- platform>
+type=text
+default=dallas
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<address>
+type=text
+required=yes
+
+<index>
+type=text
+required=yes
+
+<resolution>
+type=picklist
+picklist=8;9;19;11;12
+default=12
+
+<dallas_id>
+type=built-in-list
+class=dallas_hub
+
+<id>
+type=text
+
+<OTHER_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+default=false
+base_class=Base Sensor
+
+[Dallas Temperature Sensor Hub]
+main-heading=dallas:
+image=image-dallas-hub.png
+thumbnail=node-dallas-hub.png
+class=dallas_hub
+filter=hub
+
+<- pin>
+type=embeddable
+class=Pin Schema
+required=yes
+
+<update_interval>
+type=text
+default=60s
+indent=1
+
+<id>
+type=text
+
+
+[ESP32 Bluetooth RSSI]
+main-heading=ble_rssi:
+image=image-ble-rssi.png
+image-disabled=image-ble-rssi-dis.png
+thumbnail=node-ble-rssi.png
+class=ble_rssi
+filter=sensor
+display=platform==ESP32
+required-component=esp32_ble_tracker
+
+<- platform>
+type=text
+default= ble_rssi
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<mac_address>
+type=text
+
+<id>
+type=text
+
+
+<OTHER_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+default=false
+base_class=Base Sensor
+
+
+[Analog To Digital Converter]
+image=image-adc.png
+thumbnail=node-adc.png
+class=adc
+filter=sensor
+
+<- platform>
+type=text
+default= adc
+required= yes
+display=hidden
+
+<name>
+type=text
+required=yes
+indent=1
+
+<pin>
+type=embeddable
+class=Pin Schema
+
+<attenuation>
+type=picklist
+picklist=0db;2.5db;6.db;11db
+default=0db
+display=platform==ESP32
+
+<update_interval>
+type=text
+default=60s
+
+<id>
+type=text
+
+
+<OTHER_OPTIONS>
+type=EMBEDDED_BASE_CLASS
+default=false
+base_class=Base Sensor
+
+
+[Base Sensor]
+main-heading=sensor:
+class=base_class
+prompt-lang-key=showSensorOptions
+
+<unit_of_measurement>
+type=text
+
+<icon>
+type=text
+
+<accuracy_decimals>
+type=text
+
+<filters>
+type=multifields
+
+<filters_1>
+field=offset
+type=text
+
+<filters_2>
+field= multiply
+type=text
+
+<filters_3>
+field= calibrate_linear
+type=text-multiline
+
+<filters_4>
+field=calibrate_polynomial
+type=text-multiline
+
+<filters_5>
+field=filter_out
+type=text
+
+<filters_6>
+field= median
+type=multifields
+
+<filters_6_1>
+field= window_size
+type=text
+default=5
+
+<filters_6_2>
+field=send_every
+type=text
+default=5
+
+<filters_6_3>
+field=send_first_at
+type=text
+default=1
+
+<filters_7>
+field=sliding_window_moving_average
+type=multifields
+
+<filters_7_1>
+field= window_size
+type=text
+default=5
+
+<filters_7_2>
+field=send_every
+type=text
+default=5
+
+<filters_7_3>
+field=send_first_at
+type=text
+default=1
+
+<filters_8>
+field=exponential_moving_average
+type=multifields
+
+<filters_8_1>
+field=alpha
+type=text
+
+<filters_8_2>
+field= send_every
+type=text
+
+<filters_9>
+field=throttle
+type=text
+
+<filters_10>
+field=heartbeat
+type=text
+
+<filters_11>
+field=debounce
+type=text
+
+<filters_12>
+field=delta
+type=text
+
+<filters_13>
+field=or
+type=multifields
+
+<filters_13_1>
+field=throttle
+type=text
+
+<filters_13_2>
+field=delta
+type=text
+
+<filters_14>
+field= lambda
+type=automation
+
+<internal>
+type=boolean
+default=false
+
+<force_update>
+type=boolean
+default=false
+
+<on_value>
+type=automation
+
+<on_value_range>
+type=automation
+
+<on_raw_value>
+type=automation
+
+<expire_after>
+type=text
+
+[Deep Sleep]
+main-heading=deep_sleep:
+image=image-deep-sleep.png
+image-disabled=image-deep-sleep-dis.png
+thumbnail=node-deep-sleep.png
+repeatable=no
+class=deep_sleep
+filter=core
+
+<id>
+type=text
+
+<run_duration>
+type=text
+
+<sleep_duration>
+type=text
+
+
+<wakeup_pin>
+type=embeddable
+class=Pin Schema
+display=platform==ESP32
+
+<wakeup_pin_mode>
+type=picklist
+picklist=IGNORE;KEEP_AWAKE;INVERT_WAKEUP
+default=IGNORE
+display=platform==ESP32
+
+<esp32_ext1_wakeup>
+type=multifields
+display=platform==ESP32
+
+<esp32_ext1_wakeup_1>
+field=pins
+type=text-multiline
+
+<esp32_ext1_wakeup_2>
+field=mode
+type=picklist
+picklist=;ALL_LOW;ANY_HIGH
+
+
+[Power Supply]
+main-heading=power_supply:
+image=image-power-supply.png
+thumbnail=node-power-supply.png
+class=power_supply
+filter=core
+
+<id>
+type=text
+
+<pin>
+type=embeddable
+class=Pin Schema
+
+<enable_time>
+type=text
+default=20ms
+
+<keep_on_time>
+type=text
+default=10s
+
+
+[Native API]
+main-heading=api:
+image=image-native-api.png
+image-disabled=image-native-api-dis.png
+thumbnail=node-native-api.png
+repeatable=no
+class=api
+filter=core
+
+<id>
+type=text
+
+<port>
+type=text
+default= 6053
+
+<password>
+type=text
+
+<services>
+type=automation
+
+<reboot_timeout>
+type=text
+default=15min
+
+
+[Web Server]
+main-heading=web_server:
+image=image-web-server.png
+image-disabled=image-web-server-dis.png
+thumbnail=node-web-server.png
+repeatable=no
+class=web_server
+filter=core
+
+<id>
+type=text
+
+<port>
+type=text
+
+<css_url>
+type=path
+
+<js_url>
+type=path
+
+<auth>
+type=multifields
+
+<auth_1>
+type=text
+field= username
+
+<auth_2>
+type=text
+field= password
+
+
+[Logger]
+main-heading=logger:
+image=image-logger.png
+image-disabled=image-logger-dis.png
+thumbnail=node-logger.png
+repeatable=no
+class=logger
+filter=core
+
+<id>
+type=text
+
+<baud_rate>
+type=picklist
+picklist=9600; 19200;38400; 57600;115200
+default=9600
+
+<level>
+type=picklist
+picklist=NONE;ERROR;WARN;INFO;DEBUG;VERBOSE;VERY_VERBOSE
+default=DEBUG
+
+<logs>
+type=automation
+
+<tx_buffer_size>
+type=text
+default=512
+
+<hardware_uart>
+type=picklists
+picklist1= UART0; UART0_SWAP; UART1
+picklist2= UART0; UART1; UART2
+condition=platform==ESP8266?USRT0:UART0
+
+<esp8266_store_log_strings_in_flash>
+type=boolean
+default=true
+display=platform==ESP8266
+
+[OTA Update]
+main-heading=ota:
+image=image-ota.png
+image-disabled=image-ota-dis.png
+thumbnail=node-ota.png
+repeatable=no
+class=ota
+filter=core
+
+<id>
+type=text
+
+<safe_mode>
+type= boolean
+default=true
+
+
+<password>
+type=text
+
+<port>
+type=text
+condition=platform==ESP32?3232:8266
+
+[UART Bus]
+main-heading=uart:
+image=image-uart-bus.png
+thumbnail=node-uart.png
+class=uart
+filter=core
+
+<id>
+type=text
+
+<baud_rate>
+type=picklist
+picklist=9600; 19200;38400; 57600;115200
+default=9600
+required=true
+
+<tx_pin>
+type=embeddable
+class=Pin Schema
+
+<rx_pin>
+type=embeddable
+class=Pin Schema
+
+<stop_bits>
+type=picklist
+picklist=1;2
+default=1
+
+[SPI Bus]
+main-heading=spi:
+image=image-spi-bus.png
+thumbnail=node-spi.png
+class=spi
+filter=core
+
+<id>
+type=text
+
+<clk_pin>
+type=embeddable
+class=Pin Schema
+
+<mosi_pin>
+type=embeddable
+class=Pin Schema
+
+<miso_pin>
+type=embeddable
+class=Pin Schema
+
+
+[I2C Bus]
+main-heading=i2c:
+image=image-i2c-bus.png
+thumbnail=node-i2c.png
+class=i2c
+filter=core
+
+<id>
+type=text
+
+<sda>
+type=embeddable
+class=Pin Schema
+condition=platform==ESP8266?04:21
+
+<scl>
+type=embeddable
+class=Pin Schema
+condition=platform==ESP8266?05:22
+
+<scan>
+type=boolean
+default =true
+
+<frequency>
+type=picklist
+picklist=50KHz;100KHz;200KHz;300KHz;400KHz;500KHz;600KHz;700KHz;800KHz
+default=50KHz
+
+
+[Pin Schema]
+class=embeddable
+
+<number>
+type=built-in-list
+class=pinlist
+
+<inverted>
+type=boolean
+default=false
+
+<mode>
+type=picklists
+picklist1=;INPUT; OUTPUT; OUTPUT_OPEN_DRAIN;INPUT_PULLUP; INPUT_PULLDOWN_16
+picklist2=;INPUT; OUTPUT; OUTPUT_OPEN_DRAIN;ANALOG;INPUT_PULLUP;INPUT_PULLDOWN
+condition=platform==ESP8266?picklist1:picklist2
+
+
+[MQTT Client]
+main-heading=mqtt:
+image=image-mqtt.png
+thumbnail=node-mqtt.png
+class=mqtt
+filter=core
+
+<broker>
+required=true
+type=path
+
+<port>
+type=text
+default=1883
+
+<username>
+type=text
+
+<password>
+type=text
+
+<client_id>
+type=path
+
+<discovery>
+type=boolean
+default=true
+
+<discovery_retain>
+type=boolean
+default=true
+
+<discovery_prefix>
+type=text
+default=homeassistant
+
+<topic_prefix>
+type=text
+
+<log_topic>
+type=embeddable
+class=MQTTMessage
+
+<birth_message>
+type=embeddable
+class=MQTTMessage
+
+<will_message>
+type=embeddable
+class=MQTTMessage
+
+<shutdown_message>
+type=embeddable
+class=MQTTMessage
+
+<ssl_fingerprints>
+type=text-multiline
+display=platform==ESP8266
+
+<reboot_timeout>
+type=text
+default=15min
+
+<keepalive>
+type=text
+default=15s
+
+<on_message>
+type=automation
+
+<on_json_message>
+type=automation
+
+<id>
+type=text
+
+
+[MQTTMessage]
+class=embeddable
+
+<topic>
+type=text
+indent=1
+
+<payload>
+type=text-multiline
+
+<qos>
+type=text
+
+<retain>
+type=boolean
+default=true
+
+<level>
+type=picklist
+picklist=NONE;ERROR;WARN;INFO;DEBUG;VERBOSE;VERY_VERBOSE
+default=DEBUG
+
+[Networks]
+class=insertable
+
+<- ssid>
+type=text
+
+<password>
+type=text
+
+
+<channel>
+type=picklist
+picklist= ;1;2;3;4;5;6;7;8;9;10;11;12;13;14
+
+<bssid>
+type=text
+
+<hidden>
+type=boolean
+default=false
+
+<priority>
+type=text
+default=0
+
+[WiFi]
+main-heading=wifi:
+image=image-wifi.png
+image-disabled=image-wifi-dis.png
+thumbnail=node-wifi.png
+repeatable=false
+class=wifi
+filter=core
+
+<ssid>
+type=path
+
+<password>
+type=path
+
+<networks>
+type=insertable
+class=Networks
+
+<manual_ip>
+type=multifields
+
+<manual_ip_1>
+field=static_ip
+type=text
+
+<manual_ip_2>
+field=gateway
+type=text
+
+<manual_ip_3>
+field=subnet
+type=text
+
+<manual_ip_4>
+field=dns1
+type=text
+
+<manual_ip_5>
+field=dns2
+type=text
+
+<use_address>
+type=text
+
+<ap>
+type=multifields
+<ap_1>
+field=ssid
+type=text
+
+<ap_2>
+field=password
+type=text
+
+<ap_3>
+field=channel
+type=picklist
+default=1
+picklist=1;2;3;4;5;6;7;8;9;10;11;12;13;14
+
+<ap_4>
+field=manual_ip
+type=multifields
+
+<ap_4_1>
+field=static_ip
+type=text
+
+<ap_4_2>
+field=gateway
+type=text
+
+<ap_4_3>
+field=subnet
+type=text
+
+<ap_4_4>
+field=dns1
+type=text
+
+<ap_4_5>
+field=dns2
+type=text
+
+
+<ap_5>
+field=ap_timeout
+type=text
+
+<domain>
+type=text
+
+<reboot_timeout>
+type=text
+default=15min
+
+<power_save_mode>
+type=picklist
+picklist=NONE;LIGHT;HIGH
+condition=platform==ESP8266?NONE:LIGHT
+
+<fast_connect>
+type=boolean
+default=off
+
+<id>
+type=text
+
+
+[ESPHome Core]
+main-heading=esphome:
+image=image-core.png
+thumbnail=node-core.png
+repeatable=false
+class=core
+filter=core
+displaykey=name
+
+<name>
+required=true
+type=text
+
+<platform>
+required=true
+type=picklist
+picklist=ESP8266;ESP32
+default=ESP8266
+
+<board>
+required=true
+type=text
+condition=platform==ESP8266?nodemcuv2:nodemcu-32s
+
+<arduino_version>
+type=picklists
+condition=platform==ESP8266?picklist1:picklist2
+picklist1=2.5.2;2.5.1;2.5.0;2.4.2;2.4.1;2.4.0;2.3.0
+picklist1-default=2.4.2
+picklist2=1.0.2;1.0.1;1.0.0
+picklist2-default=1.0.1
+
+<build_path>
+type=path
+
+<platformio_options>
+type=text
+
+<use_custom_code>
+type=boolean
+default=false
+
+<includes>
+type=pathlist
+
+<libraries>
+type=pathlist
+
+<comment>
+type=text-multiline
+
+<esp8266_restore_from_flash>
+type=boolean
+default=false
+display=platform==ESP8266
+
+<on_boot>
+type=automation
+
+<on_shutdown>
+type=automation
+
+<on_loop>
+type=automation
