@@ -2388,4 +2388,15 @@
     <Lang_zh>There Are No PCA9685 Hub Components</Lang_zh>
     <Lang_ru>There Are No PCA9685 Hub Components</Lang_ru>
   </Main_Table>
+  <Main_Table>
+    <Lang_Id>ThereAreNoPN532HubComponents</Lang_Id>
+    <Lang_en>There Are No PN532 Hub Components</Lang_en>
+    <Lang_fr>There Are No PN532 Hub Components</Lang_fr>
+    <Lang_es>There Are No PN532 Hub Components</Lang_es>
+    <Lang_de>There Are No PN532 Hub Components</Lang_de>
+    <Lang_it>There Are No PN532 Hub Components</Lang_it>
+    <Lang_he>There Are No PN532 Hub Components</Lang_he>
+    <Lang_zh>There Are No PN532 Hub Components</Lang_zh>
+    <Lang_ru>There Are No PN532 Hub Components</Lang_ru>
+  </Main_Table>
 </ESPHOMEYamlLanguageDataset>

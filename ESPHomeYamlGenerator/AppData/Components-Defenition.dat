@@ -2165,6 +2165,10 @@ type=text
 type=insertable
 class=Display Pages
 
+<spi_id>
+type=built-in-list
+class=spi
+
 <id>
 type=text
 
@@ -2284,6 +2288,10 @@ type=text
 <pages>
 type=insertable
 class=Display Pages
+
+<i2c_id>
+type=built-in-list
+class=i2c
 
 <id>
 type=text
@@ -2481,6 +2489,10 @@ type=automation
 <update_interval>
 type=text
 default=1s
+
+<i2c_id>
+type=built-in-list
+class=i2c
 
 <id>
 type=text
@@ -3769,6 +3781,10 @@ indent=1
 type=text
 required=yes
 
+<pn532_id>
+type=built-in-list
+class= pn532_hub
+
 <id>
 type=text
 
@@ -4462,6 +4478,10 @@ base_class=Base Sensor
 type=text
 default=60s
 
+<i2c_id>
+type=built-in-list
+class=i2c
+
 [AM2320 Temperature+Humidity]
 image=image-am2320.png
 thumbnail=node-am2320.png
@@ -4514,6 +4534,9 @@ base_class=Base Sensor
 type=text
 default=60s
 
+<i2c_id>
+type=built-in-list
+class=i2c
 
 [DHT Temperature+Humidity]
 image=image-dht.png
