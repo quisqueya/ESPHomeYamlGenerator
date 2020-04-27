@@ -1,6 +1,7 @@
 # ESPHomeYamlGenerator
 Windows based yaml generator for ESPHome. Requires .NET 4.5 Framework. 
-This project was an exercise to learn about ESPHome. There is no need to install it, just download the folder and run it from the downloaded folder. This utility has built-in support for multiple languages but they have to be translated. Quick guide:
+This project was an exercise to learn about ESPHome. There is no need to install it, just download the folder and run it from the downloaded folder. This utility has built-in support for multiple languages but they have to be translated. Free for personal use only. 
+Quick guide:
 
 ![](guide/quick-start-manual-1.png)
 ![](guide/quick-start-manual-2.png)
